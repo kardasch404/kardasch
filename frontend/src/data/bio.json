@@ -1,0 +1,34 @@
+{
+  "name": "Zakaria Kardache",
+  "title": "Backend & Automation Engineer",
+  "tagline": "Cloud Infrastructure · Microservices · Cybersecurity",
+  "location": {
+    "city": "Casablanca",
+    "country": "Morocco",
+    "openToRelocation": true,
+    "relocationTarget": "Canada"
+  },
+  "contact": {
+    "email": "kardasch.zakaria@outlook.de",
+    "phone": "+212 613-450-087",
+    "linkedin": "https://linkedin.com/in/ZakariaKardache",
+    "github": "https://github.com/kardasch404",
+    "xing": "https://xing.com/profile/ZakariaKardache"
+  },
+  "summary": "Backend & Automation Engineer with 1+ year of production experience building cloud-native systems at scale. Proven track record designing Kubernetes-based infrastructures, high-throughput data pipelines, and resilient microservices using Rust, Go, Python, and Elixir. Led a 3-person engineering team, shipped 6+ full-stack projects, and holds a Kubernetes & Cloud Native Essentials (KCNE) certification.",
+  "availableForWork": true,
+  "languages": [
+    { "name": "Arabic",  "level": "Native",        "code": "ar" },
+    { "name": "French",  "level": "B2",             "code": "fr" },
+    { "name": "English", "level": "B2",             "code": "en" },
+    { "name": "German",  "level": "B2 — C1 Jun 2026", "code": "de" }
+  ],
+  "interests": [
+    { "label": "Chess",       "detail": "FIDE profile · Chess.com: zackkardasch" },
+    { "label": "Video Games", "detail": null },
+    { "label": "Running",     "detail": null },
+    { "label": "PC Hardware & Tech", "detail": null },
+    { "label": "Creative Design",    "detail": "Figma, Canva" },
+    { "label": "Travelling",  "detail": null }
+  ]
+}

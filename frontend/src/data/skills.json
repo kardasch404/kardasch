@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "label": "Languages",
+      "icon": "code",
+      "items": [
+        { "name": "Rust",       "level": "advanced" },
+        { "name": "Python",     "level": "advanced" },
+        { "name": "Go",         "level": "advanced" },
+        { "name": "Elixir",     "level": "intermediate" },
+        { "name": "TypeScript", "level": "advanced" },
+        { "name": "JavaScript", "level": "advanced" },
+        { "name": "PHP",        "level": "intermediate" },
+        { "name": "C",          "level": "intermediate" },
+        { "name": "Shell",      "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend & APIs",
+      "icon": "server",
+      "items": [
+        { "name": "Node.js",     "level": "advanced" },
+        { "name": "NestJS",      "level": "advanced" },
+        { "name": "Express.js",  "level": "advanced" },
+        { "name": "Laravel",     "level": "intermediate" },
+        { "name": "RESTful API", "level": "advanced" },
+        { "name": "GraphQL",     "level": "intermediate" },
+        { "name": "ORM",         "level": "advanced" }
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "icon": "layout",
+      "items": [
+        { "name": "React",        "level": "advanced" },
+        { "name": "Next.js",      "level": "advanced" },
+        { "name": "Vue.js",       "level": "intermediate" },
+        { "name": "Redux",        "level": "advanced" },
+        { "name": "Tailwind CSS", "level": "advanced" },
+        { "name": "HTML5",        "level": "advanced" },
+        { "name": "CSS3",         "level": "advanced" }
+      ]
+    },
+    {
+      "id": "databases",
+      "label": "Databases",
+      "icon": "database",
+      "items": [
+        { "name": "MySQL",         "level": "advanced" },
+        { "name": "PostgreSQL",    "level": "advanced" },
+        { "name": "MongoDB",       "level": "advanced" },
+        { "name": "Redis",         "level": "advanced" },
+        { "name": "Elasticsearch", "level": "intermediate" },
+        { "name": "Prisma",        "level": "intermediate" },
+        { "name": "Mongoose",      "level": "advanced" }
+      ]
+    },
+    {
+      "id": "cloud-devops",
+      "label": "Cloud & DevOps",
+      "icon": "cloud",
+      "items": [
+        { "name": "Docker",      "level": "advanced" },
+        { "name": "Kubernetes",  "level": "advanced" },
+        { "name": "AWS",         "level": "intermediate" },
+        { "name": "Terraform",   "level": "intermediate" },
+        { "name": "Jenkins CI/CD","level": "intermediate" },
+        { "name": "Git",         "level": "advanced" },
+        { "name": "Linux",       "level": "advanced" }
+      ]
+    },
+    {
+      "id": "messaging",
+      "label": "Messaging & Queues",
+      "icon": "messages",
+      "items": [
+        { "name": "Apache Kafka", "level": "advanced" },
+        { "name": "BullMQ",       "level": "intermediate" },
+        { "name": "WebSockets",   "level": "advanced" },
+        { "name": "Socket.io",    "level": "intermediate" },
+        { "name": "Zookeeper",    "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security & Auth",
+      "icon": "shield",
+      "items": [
+        { "name": "JWT",                    "level": "advanced" },
+        { "name": "OAuth2",                 "level": "intermediate" },
+        { "name": "RBAC",                   "level": "advanced" },
+        { "name": "bcrypt",                 "level": "advanced" },
+        { "name": "Cybersecurity Fundamentals", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "automation",
+      "label": "Automation & Scraping",
+      "icon": "robot",
+      "items": [
+        { "name": "Selenium",       "level": "advanced" },
+        { "name": "Playwright",     "level": "advanced" },
+        { "name": "BeautifulSoup",  "level": "advanced" },
+        { "name": "Cloudscraper",   "level": "advanced" },
+        { "name": "Multiprocessing","level": "advanced" },
+        { "name": "WAF bypass",     "level": "advanced" }
+      ]
+    },
+    {
+      "id": "microservices",
+      "label": "Microservices",
+      "icon": "components",
+      "items": [
+        { "name": "Microservices Architecture", "level": "advanced" },
+        { "name": "API Key Management",         "level": "advanced" },
+        { "name": "SOLID Principles",           "level": "advanced" },
+        { "name": "Service Patterns",           "level": "intermediate" },
+        { "name": "NX Monorepo",               "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Tools & Other",
+      "icon": "tool",
+      "items": [
+        { "name": "Figma",      "level": "intermediate" },
+        { "name": "Postman",    "level": "advanced" },
+        { "name": "Swagger",    "level": "intermediate" },
+        { "name": "Prometheus", "level": "beginner" },
+        { "name": "Jira",       "level": "intermediate" },
+        { "name": "SCRUM",      "level": "advanced" },
+        { "name": "Kanban",     "level": "advanced" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "comply-world-engineer",
+    "company": "Comply World",
+    "location": "Casablanca, Morocco",
+    "role": "Backend & Automation Engineer",
+    "type": "full-time",
+    "startDate": "2025-12",
+    "endDate": null,
+    "current": true,
+    "bullets": [
+      "Architected and scaled cloud-native automation infrastructure using Kubernetes, Docker, Kafka, and Redis — supporting full production environments with CI/CD pipelines and zero-downtime deployments.",
+      "Built intelligent anti-bot automation handling high-volume data capture against WAF-protected endpoints (Cloudflare, reCAPTCHA, hCaptcha), achieving near-zero failure rates at scale.",
+      "Designed end-to-end REST APIs with API Key Management and microservices-based data pipeline architecture for real-time processing and downstream analytics."
+    ],
+    "stack": [
+      "Rust", "Go", "Elixir", "Python", "C", "Shell",
+      "Docker", "Kubernetes", "Kafka", "Redis", "MySQL",
+      "Microservices", "Web Scraping"
+    ]
+  },
+  {
+    "id": "comply-world-transition",
+    "company": "Comply World",
+    "location": "Casablanca, Morocco",
+    "role": "Internal Project & Upskilling Phase",
+    "type": "internal",
+    "startDate": "2025-08",
+    "endDate": "2025-11",
+    "current": false,
+    "bullets": [
+      "Internal transition period focused on deep upskilling in Rust, cloud-native tooling, and system architecture between internship and full-time role."
+    ],
+    "stack": []
+  },
+  {
+    "id": "comply-world-intern",
+    "company": "Comply World",
+    "location": "Casablanca, Morocco",
+    "role": "Backend Developer",
+    "type": "internship",
+    "startDate": "2025-05",
+    "endDate": "2025-07",
+    "current": false,
+    "bullets": [
+      "Led a 3-person development team: sprint planning, code reviews, mentoring, and SCRUM/Kanban delivery cycles.",
+      "Engineered 30+ parallel data extraction pipelines using multithreading and multiprocessing, maximizing throughput while defending against bot detection systems.",
+      "Automated end-to-end data workflows — extraction, cleaning, and preparation for network analysis — using Python and Pandas."
+    ],
+    "stack": [
+      "PHP", "Python", "MySQL", "BeautifulSoup",
+      "Selenium", "Cloudscraper", "Pandas", "Web Scraping"
+    ]
+  }
+]

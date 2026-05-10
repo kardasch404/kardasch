@@ -1,0 +1,46 @@
+[
+  {
+    "id": "alx-cybersecurity",
+    "institution": "ALX Africa / Subverted",
+    "degree": "Software Engineering — Cybersecurity Specialization",
+    "field": "Cybersecurity",
+    "location": "Casablanca Technopark, Morocco (Hybrid)",
+    "startDate": "2026-02",
+    "endDate": null,
+    "current": true,
+    "description": "Hands-on offensive security program: offensive operations, defensive security, and strategic governance."
+  },
+  {
+    "id": "youcode-mern",
+    "institution": "Youcode | UM6P | Simplon",
+    "degree": "MERN Stack Developer Bootcamp",
+    "field": "Full-Stack Software Development",
+    "location": "Youssoufia, Morocco",
+    "startDate": "2024-09",
+    "endDate": "2026-04",
+    "current": false,
+    "description": "Intensive full-stack training: Frontend & Backend development, Responsive Design, Agile (SCRUM/Kanban), Database Design, Project Management."
+  },
+  {
+    "id": "hassan2-mip",
+    "institution": "Université Hassan II — Faculty of Sciences Ben M'sik",
+    "degree": "MIP — Mathematics, Computer Science & Physics",
+    "field": "Mathematics, Informatics, Physics",
+    "location": "Casablanca, Morocco",
+    "startDate": "2021-09",
+    "endDate": "2022-06",
+    "current": false,
+    "description": "S1 & S2 — Algorithms, Mathematics, Physics fundamentals."
+  },
+  {
+    "id": "omar-khayyam-bac",
+    "institution": "Gymnasium Omar Al Khayyam",
+    "degree": "Baccalauréat — Mathematics & Natural Sciences",
+    "field": "Mathematics, Natural Sciences",
+    "location": "Youssoufia, Morocco",
+    "startDate": "2020-09",
+    "endDate": "2021-07",
+    "current": false,
+    "description": "General Baccalauréat with focus on Mathematics and the Natural Sciences stream."
+  }
+]

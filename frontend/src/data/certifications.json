@@ -1,0 +1,43 @@
+[
+  {
+    "id": "kcne",
+    "name": "Kubernetes & Cloud Native Essentials (KCNE)",
+    "issuer": "Linux Foundation / Credly",
+    "year": 2026,
+    "date": "2026",
+    "credentialUrl": null,
+    "description": "Container orchestration, K8s architecture, cloud-native deployment strategies.",
+    "tags": ["Kubernetes", "Cloud", "DevOps"]
+  },
+  {
+    "id": "sql-great-learning",
+    "name": "SQL Certificate",
+    "issuer": "Great Learning Academy",
+    "year": 2025,
+    "date": "2025",
+    "credentialUrl": null,
+    "description": "Structured Query Language — querying, joins, optimization.",
+    "tags": ["SQL", "Databases"]
+  },
+  {
+    "id": "goethe-c1",
+    "name": "Goethe-Zertifikat C1 — German Language (in progress)",
+    "issuer": "Goethe-Institut Casablanca",
+    "year": 2026,
+    "date": "2026-06",
+    "credentialUrl": null,
+    "inProgress": true,
+    "description": "C1-level German language certification. Exam scheduled June 30, 2026.",
+    "tags": ["German", "Languages"]
+  },
+  {
+    "id": "first-aid",
+    "name": "First Aid & CPR (HLW)",
+    "issuer": "Moroccan Red Crescent",
+    "year": 2023,
+    "date": "2023",
+    "credentialUrl": null,
+    "description": "First aid and cardiopulmonary resuscitation training.",
+    "tags": ["First Aid"]
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "ostora",
+    "slug": "ostora",
+    "name": "Ostora",
+    "tagline": "Intelligent SaaS Job Application Platform",
+    "description": "Full-stack SaaS platform automating job applications end-to-end: AI-powered CV analysis, cover letter generation, and candidate-recruiter matching using live B2B job market data.",
+    "type": "saas",
+    "featured": true,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "TypeScript", "NestJS", "Node.js", "PostgreSQL", "MongoDB",
+      "Redis", "Elasticsearch", "Kafka", "Docker", "Kubernetes",
+      "Terraform", "Jenkins", "AWS", "Playwright", "WebSockets"
+    ],
+    "highlights": [
+      "Fast Apply automation",
+      "AI CV analysis",
+      "B2B recruiter matching",
+      "Kafka event streaming",
+      "Full AWS cloud deployment"
+    ]
+  },
+  {
+    "id": "arch-x7",
+    "slug": "arch-x7",
+    "name": "ARCH-X7",
+    "tagline": "Sovereign Data Harvesting Engine & WAF Penetration System",
+    "description": "Autonomous, self-healing distributed system for stealth data orchestration. Bypasses enterprise WAFs using biometric spoofing and a polyglot microservices architecture with dynamic fingerprinting.",
+    "type": "security",
+    "featured": true,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Python", "Rust", "Go", "Elixir", "C", "Playwright",
+      "Apache Kafka", "Redis", "Kubernetes", "KEDA", "Docker",
+      "MySQL", "Gemini 2.5 AI", "Microservices"
+    ],
+    "highlights": [
+      "Enterprise WAF bypass (Cloudflare, reCAPTCHA, hCaptcha)",
+      "Biometric spoofing",
+      "Self-healing distributed architecture",
+      "Polyglot microservices (Rust + Go + Elixir + Python)",
+      "KEDA autoscaling"
+    ]
+  },
+  {
+    "id": "scan-ocr",
+    "slug": "scan-ocr",
+    "name": "scanOCR",
+    "tagline": "Advanced Identity Document Analysis & Biometric Extraction",
+    "description": "Offline-first computer vision system for deep document analysis. Extracts biometric data, MRZ codes, and multilingual text via deep learning and spatial zone recognition — no internet required.",
+    "type": "ai-cv",
+    "featured": true,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Python", "PaddleOCR", "PaddlePaddle", "OpenCV",
+      "Haar Cascades", "Canny Edge Detection", "NumPy", "Deep Learning"
+    ],
+    "highlights": [
+      "Offline-first architecture",
+      "MRZ code extraction",
+      "Multilingual OCR",
+      "Spatial zone analysis",
+      "Biometric data extraction"
+    ]
+  },
+  {
+    "id": "eventra",
+    "slug": "eventra",
+    "name": "Eventra",
+    "tagline": "Full-Stack Event Discovery & Booking Platform",
+    "description": "Event discovery and booking platform with real-time features, microservices architecture, and CI/CD workflows. Includes JWT-secured RBAC and GraphQL APIs.",
+    "type": "fullstack",
+    "featured": true,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Next.js", "NestJS", "TypeScript", "MongoDB",
+      "GraphQL", "Redux", "Microservices", "GitHub Actions", "JWT", "RBAC"
+    ],
+    "highlights": [
+      "Real-time booking",
+      "GraphQL API",
+      "Microservices architecture",
+      "CI/CD with GitHub Actions",
+      "JWT + RBAC security"
+    ]
+  },
+  {
+    "id": "healthpulse",
+    "slug": "healthpulse",
+    "name": "HealthPulse",
+    "tagline": "Medical Management System — Backend",
+    "description": "Backend system for a medical management platform with queue-based job processing, file storage, and REST API.",
+    "type": "backend",
+    "featured": false,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Node.js", "Express.js", "MongoDB", "Redis",
+      "Bull Queue", "MinIO", "Docker", "JWT", "RBAC", "REST API", "Jest", "Agile"
+    ],
+    "highlights": [
+      "Bull Queue job processing",
+      "MinIO file storage",
+      "JWT + RBAC auth"
+    ]
+  },
+  {
+    "id": "walletly",
+    "slug": "walletly",
+    "name": "Walletly",
+    "tagline": "Personal Budget Management Platform",
+    "description": "Personal budget tracking platform with expense categorization, chart visualizations, and user authentication.",
+    "type": "fullstack",
+    "featured": false,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Node.js", "MySQL", "Docker", "Chart.js", "Express.js", "Sequelize", "EJS"
+    ],
+    "highlights": [
+      "Budget tracking",
+      "Chart.js visualizations",
+      "Sequelize ORM"
+    ]
+  },
+  {
+    "id": "loughat",
+    "slug": "loughat",
+    "name": "Loughat",
+    "tagline": "Language Learning Platform with Course Management",
+    "description": "Language learning SaaS with course management, Stripe payments, media storage via Cloudinary, and a clean Repository Pattern architecture.",
+    "type": "fullstack",
+    "featured": false,
+    "status": "built",
+    "github": null,
+    "demo": null,
+    "stack": [
+      "Laravel 10", "PHP", "MySQL", "Docker",
+      "JavaScript", "Stripe API", "Cloudinary", "JWT", "Repository Pattern", "Jira"
+    ],
+    "highlights": [
+      "Stripe payment integration",
+      "Cloudinary media storage",
+      "Repository Pattern",
+      "Multi-language support"
+    ]
+  }
+]

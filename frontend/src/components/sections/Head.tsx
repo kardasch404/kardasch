@@ -1,0 +1,33 @@
+export function Head() {
+  return (
+    <div className="select-none">
+      <div className="flex items-center">
+        <div className="flex-grow space-y-0.5">
+          <hr className="border-t-[5px] border-black/85" />
+          <hr className="border-t-[2px] border-black/90" />
+        </div>
+        <span className="mx-2 text-5xl font-OldLondon text-themeOrange">
+          Backend X Automation Engineer
+        </span>
+        <div className="flex-grow space-y-0.5">
+          <hr className="border-t-[5px] border-black/85" />
+          <hr className="border-t-[2px] border-black/90" />
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4 items-center pb-6">
+        <div className="text-8xl font-semibold font-OldLondon text-black/90">
+          Zakaria Kardache
+        </div>
+        <div className="font-EditorialNew">
+          Building cloud-native systems with Rust, Go, Python & Elixir
+        </div>
+      </div>
+
+      <div className="flex flex-col space-y-0.5">
+        <hr className="border-t-[2px] border-black/90" />
+        <hr className="border-t-[5px] border-black/85" />
+      </div>
+    </div>
+  );
+}
