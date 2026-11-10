@@ -3597,9 +3597,9 @@
   --accent: #1a3a6b;
   --accent2: #8b1a1a;
   --ink: #111827;
-  --mid: #333333;
-  --light: #555555;
-  --lighter: #555555;
+  --mid: #1f2937;
+  --light: #374151;
+  --lighter: #4b5563;
   --rule: #d1d5db;
   --bg: #ffffff;
   --tag-bg: #f3f4f6;
@@ -3699,6 +3699,8 @@
   border-radius: 4px;
   background: #ffffff;
   position: relative;
+  border: 1px solid rgba(26, 58, 107, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
 }
 
 .cv-profile-photo {
@@ -3707,7 +3709,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 20%;
   border: none;
   display: block;
   margin: 0;
