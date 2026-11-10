@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src",
+    "predev": "node scripts/sync-room-photos.cjs",
+    "prebuild": "node scripts/sync-room-photos.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.0",
     "@reduxjs/toolkit": "^2.2.0",
+    "@types/three": "^0.186.0",
+    "chess.js": "^1.4.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.0",
     "next": "^16.2.6",
@@ -19,6 +23,7 @@
     "react-hook-form": "^7.51.0",
     "react-redux": "^9.1.0",
     "tailwind-merge": "^2.3.0",
+    "three": "^0.186.1",
     "zod": "^3.23.0"
   },
   "devDependencies": {
@@ -26,9 +31,10 @@
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.39.5",
     "eslint-config-next": "^16.2.6",
     "postcss": "^8.4.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.4.0"
   }

@@ -9,11 +9,11 @@ export function useFilter(projects: Project[]) {
   return projects.filter((project) => {
     const matchesTech =
       selectedTech.length === 0 ||
-      selectedTech.some((tech) => project.tech.includes(tech));
+      selectedTech.some((tech) => project.stack.includes(tech));
 
     const matchesSearch =
       searchQuery === '' ||
-      project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      project.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       project.description.toLowerCase().includes(searchQuery.toLowerCase());
 
     return matchesTech && matchesSearch;

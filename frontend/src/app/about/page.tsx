@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="mt-6 border-t-2 border-black pt-6">
           <div className="font-EditorialNew text-xl leading-relaxed">
             <p className="high">A</p>
-            <p className="text-justify">{bio.bio}</p>
+            <p className="text-justify">{bio.summary}</p>
           </div>
         </div>
       </div>
@@ -27,39 +27,39 @@ export default function AboutPage() {
         <div className="space-y-4 font-TimesNewRoman text-lg">
           <div className="border-b-2 border-black pb-2">
             <strong className="font-bold">EMAIL:</strong>{' '}
-            <a href={`mailto:${bio.email}`} className="text-themeOrange hover:underline">
-              {bio.email}
+            <a href={`mailto:${bio.contact.email}`} className="text-themeOrange hover:underline">
+              {bio.contact.email}
             </a>
           </div>
-          {bio.github && (
+          {bio.contact.github && (
             <div className="border-b-2 border-black pb-2">
               <strong className="font-bold">GITHUB:</strong>{' '}
               <a
-                href={bio.github}
+                href={bio.contact.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-themeOrange hover:underline"
               >
-                {bio.github}
+                {bio.contact.github}
               </a>
             </div>
           )}
-          {bio.linkedin && (
+          {bio.contact.linkedin && (
             <div className="border-b-2 border-black pb-2">
               <strong className="font-bold">LINKEDIN:</strong>{' '}
               <a
-                href={bio.linkedin}
+                href={bio.contact.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-themeOrange hover:underline"
               >
-                {bio.linkedin}
+                {bio.contact.linkedin}
               </a>
             </div>
           )}
           {bio.location && (
             <div className="border-b-2 border-black pb-2">
-              <strong className="font-bold">LOCATION:</strong> {bio.location}
+              <strong className="font-bold">LOCATION:</strong> {bio.location.city}, {bio.location.country}
             </div>
           )}
         </div>

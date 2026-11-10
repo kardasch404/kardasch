@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakaria Kardache — Bewerbung als Fachinformatiker für Anwendungsentwicklung</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap"
+        rel="stylesheet">
+    <style>
+        /* -- FONT STACK -- */
+        /* Josefin Sans = geometric, clean - close to Futura PT feel */
+        /* Source Serif 4 = refined body text for small font sizes */
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        :root {
+            --accent: #1a3a6b;
+            --accent2: #8b1a1a;
+            --ink: #111827;
+            --mid: #333333;
+            --light: #555555;
+            --lighter: #555555;
+            --rule: #D1D5DB;
+            --bg: #ffffff;
+            --tag-bg: #F3F4F6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Josefin Sans', 'Futura PT', Futura, Avenir, sans-serif;
+            background: #f0f0f0;
+            color: var(--ink);
+            font-size: 5pt;
+            line-height: 1.25;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── PAGE ── */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: var(--bg);
+            box-shadow: 0 4px 40px rgba(0, 0, 0, .12);
+            padding: 8mm 11mm 8mm 11mm;
+            position: relative;
+        }
+
+        /* ── LEFT ACCENT LINE ── */
+        .page::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(180deg, var(--accent) 0%, var(--accent2) 100%);
+        }
+
+        /* ═══════════════════════════════
+   HEADER
+═══════════════════════════════ */
+        .header {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 12px;
+            align-items: center;
+            padding-bottom: 7px;
+            border-bottom: 1.5px solid var(--ink);
+            margin-bottom: 8px;
+        }
+
+        .header-left {}
+
+        .name {
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--ink);
+            letter-spacing: -.5px;
+            line-height: 1;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .title {
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            font-size: 11pt;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: .02em;
+            margin-bottom: 5px;
+        }
+
+        .contact-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0;
+            font-size: 8pt;
+            color: var(--mid);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .contact-row span {
+            margin-right: 10px;
+        }
+
+        .contact-row a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .contact-row a:hover {
+            text-decoration: underline;
+        }
+
+        /* availability badge */
+        .avail-badge {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 7.5pt;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: #166534;
+            border: 1px solid #166534;
+            padding: 3px 9px;
+            border-radius: 2px;
+            margin-top: 6px;
+            width: fit-content;
+            font-weight: 600;
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #22c55e;
+        }
+
+        /* Header right - profile photo column */
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-top: 0;
+        }
+
+        .profile-link {
+            display: block;
+            width: 38mm;
+            height: 38mm;
+            line-height: 0;
+            overflow: hidden;
+            border-radius: 4px;
+            background: #fff;
+            position: relative;
+        }
+
+        .profile-photo {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border: none;
+            display: block;
+            margin: 0;
+        }
+
+        /* ═══════════════════════════════
+  SECTION TITLE
+═══════════════════════════════ */
+        .sec-title {
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: .22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: 3px;
+            margin-top: 6px;
+            margin-bottom: 4px;
+        }
+
+        /* ═══════════════════════════════
+  SUMMARY
+═══════════════════════════════ */
+        .summary p {
+            font-size: 9pt;
+            color: var(--mid);
+            line-height: 1.55;
+            font-weight: 300;
+            font-family: 'Source Serif 4', Georgia, serif;
+        }
+
+        /* ═══════════════════════════════
+  TWO-COLUMN LAYOUT
+═══════════════════════════════ */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0 24px;
+        }
+
+        /* ═══════════════════════════════
+  SKILLS
+═══════════════════════════════ */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3px;
+        }
+
+        .skill-row {
+            padding: 3px 0;
+            border-bottom: .5px solid var(--tag-bg);
+            font-size: 10pt;
+            line-height: 1.45;
+            break-inside: avoid;
+        }
+
+        .skill-label {
+            font-size: inherit;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            margin-right: 4px;
+        }
+
+        .skill-val {
+            font-size: 10pt;
+            color: var(--mid);
+            line-height: 1.45;
+            font-weight: 400;
+        }
+
+        .skill-val .hi {
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        /* ═══════════════════════════════
+  EXPERIENCE
+═══════════════════════════════ */
+        .job {
+            margin-bottom: 6px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+            margin-bottom: 1px;
+        }
+
+        .job-role {
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            letter-spacing: .02em;
+        }
+
+        .job-co {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .job-dates {
+            font-size: 8pt;
+            color: var(--light);
+            font-style: italic;
+            white-space: nowrap;
+            font-weight: 300;
+        }
+
+        .job-loc {
+            font-size: 8pt;
+            color: var(--lighter);
+            font-style: italic;
+            margin-bottom: 4px;
+            font-weight: 300;
+        }
+
+        .bullets {
+            list-style: none;
+            padding-left: 10px;
+            margin-bottom: 4px;
+        }
+
+        .bullets li {
+            font-size: 8.8pt;
+            color: #1F2937;
+            line-height: 1.45;
+            margin-bottom: 3px;
+            padding-left: 10px;
+            position: relative;
+            font-weight: 300;
+            font-family: 'Source Serif 4', Georgia, serif;
+        }
+
+        .bullets li::before {
+            content: '–';
+            position: absolute;
+            left: 0;
+            color: var(--accent2);
+            font-weight: 700;
+        }
+
+        .stack {
+            font-size: 7.8pt;
+            color: var(--light);
+            font-style: italic;
+            font-weight: 300;
+            padding-left: 10px;
+        }
+
+        /* ═══════════════════════════════
+  PROJECTS
+═══════════════════════════════ */
+        .proj {
+            margin-bottom: 5px;
+        }
+
+        .proj-compact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 16px;
+            margin-top: 3px;
+        }
+
+        .proj-mini {
+            padding: 3px 0;
+            border-top: .5px solid var(--rule);
+        }
+
+        .proj-mini-name {
+            font-size: 8pt;
+            font-weight: 700;
+            color: var(--mid);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+        }
+
+        .proj-mini-tech {
+            font-size: 7.2pt;
+            color: var(--lighter);
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .proj-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+            margin-bottom: 2px;
+        }
+
+        .proj-name {
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            letter-spacing: .02em;
+        }
+
+        .proj-name a {
+            color: var(--ink);
+            text-decoration: none;
+        }
+
+        .proj-name a:hover {
+            color: var(--accent);
+        }
+
+        .proj-badge {
+            font-size: 7pt;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            padding: 1px 6px;
+            font-weight: 700;
+            white-space: nowrap;
+            font-family: 'Josefin Sans', Futura, sans-serif;
+        }
+
+        .badge-red {
+            color: var(--accent2);
+            border: 1px solid var(--accent2);
+        }
+
+        .badge-blue {
+            color: var(--accent);
+            border: 1px solid var(--accent);
+        }
+
+        .badge-gray {
+            color: var(--lighter);
+            border: 1px solid var(--rule);
+        }
+
+        .proj-tech {
+            font-size: 7.8pt;
+            color: var(--lighter);
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        /* compact project row */
+        .proj-compact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 18px;
+            margin-top: 4px;
+        }
+
+        .proj-mini {
+            padding: 4px 0;
+            border-top: .5px solid var(--rule);
+        }
+
+        .proj-mini-name {
+            font-size: 8.5pt;
+            font-weight: 700;
+            color: var(--mid);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+        }
+
+        .proj-mini-tech {
+            font-size: 7.8pt;
+            color: var(--lighter);
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        /* ═══════════════════════════════
+  EDUCATION
+═══════════════════════════════ */
+        .edu {
+            margin-bottom: 5px;
+        }
+
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+            margin-bottom: 1px;
+        }
+
+        .edu-deg {
+            font-size: 9pt;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+        }
+
+        .edu-dates {
+            font-size: 8pt;
+            color: var(--light);
+            font-style: italic;
+            white-space: nowrap;
+            font-weight: 300;
+        }
+
+        .edu-school {
+            font-size: 8.2pt;
+            color: var(--light);
+            margin-bottom: 2px;
+            font-weight: 300;
+        }
+
+        .edu-note {
+            font-size: 8pt;
+            color: var(--lighter);
+            font-style: italic;
+            font-weight: 300;
+            font-family: 'Source Serif 4', Georgia, serif;
+        }
+
+        /* ═══════════════════════════════
+  CERTIFICATIONS
+═══════════════════════════════ */
+        .cert {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+            margin-bottom: 4px;
+            padding-bottom: 4px;
+            border-bottom: .5px solid var(--rule);
+        }
+
+        .cert:last-child {
+            border-bottom: none;
+        }
+
+        .cert-name {
+            font-size: 8.8pt;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Josefin Sans', Futura, sans-serif;
+        }
+
+        .cert-iss {
+            font-size: 8pt;
+            color: var(--light);
+            font-weight: 300;
+        }
+
+        .cert-yr {
+            font-size: 8pt;
+            color: var(--lighter);
+            font-style: italic;
+            white-space: nowrap;
+            font-weight: 300;
+        }
+
+        /* ═══════════════════════════════
+  PRINT BUTTON
+═══════════════════════════════ */
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 10px 22px;
+            font-family: 'Josefin Sans', Futura, sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            cursor: pointer;
+            box-shadow: 0 2px 12px rgba(26, 58, 107, .3);
+            z-index: 999;
+            transition: background .2s;
+        }
+
+        .print-btn:hover {
+            background: var(--accent2);
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .print-btn {
+                display: none;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <button class="print-btn" id="downloadPdfBtn">&#11040; PDF herunterladen</button>
+
+    <div class="page">
+
+        <!-- ════════════════════════════
+       HEADER
+  ════════════════════════════ -->
+        <div class="header">
+            <div class="header-left">
+                <div class="name">Zakaria Kardache</div>
+                <div class="title">Bewerbung als Fachinformatiker für Anwendungsentwicklung</div>
+                <div class="contact-row">
+                    <span>+212 613-450-087</span>
+                    <span><a href="mailto:kardasch.zakaria@outlook.de">kardasch.zakaria@outlook.de</a></span>
+                    <span><a
+                            href="https://www.linkedin.com/in/zakaria-kardache/">linkedin.com/in/zakaria-kardache</a></span>
+                    <span>Casablanca, Marokko · <a
+                            href="https://github.com/kardasch404">github.com/kardasch404</a></span>
+                    <span><a href="https://kardasch.me/">kardasch.me</a></span>
+                    <span><a href="https://www.xing.com/profile/Zakaria_Kardache081184">Xing: Zakaria
+                            Kardache</a></span>
+                </div>
+            </div>
+            <div class="header-right">
+                <a class="profile-link" href="https://www.complyworld.com/indexEN.html" target="_blank"
+                    rel="noreferrer">
+                    <img class="profile-photo" src="../../imgs/Kardachezakaria1.png" alt="Zakaria Kardache" />
+                </a>
+            </div>
+        </div>
+
+        <!-- ════════════════════════════
+      TECHNISCHE KENNTNISSE
+  ════════════════════════════ -->
+        <div class="sec-title">TECHNISCHE KENNTNISSE</div>
+        <div class="skills-grid">
+            <div class="skill-row">
+                <span class="skill-label">Programmiersprachen:</span>
+                <span class="skill-val">Java · TypeScript · JavaScript · Python · Go · SQL</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Frontend:</span>
+                <span class="skill-val">React · Next.js · HTML5 · CSS3 · Tailwind CSS · Responsive Design</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Backend &amp; APIs:</span>
+                <span class="skill-val">Node.js · NestJS · FastAPI · Pydantic · REST-APIs</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Datenbanken &amp; Verarbeitung:</span>
+                <span class="skill-val">PostgreSQL · MySQL · MongoDB · Redis · Pandas</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Infrastruktur &amp; Nachrichtenverarbeitung:</span>
+                <span class="skill-val">Docker · Kubernetes · Kafka · Git · Linux · CI/CD</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Zusammenarbeit:</span>
+                <span class="skill-val">Scrum · Kanban · Sprintplanung · Code-Reviews</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Datenextraktion:</span>
+                <span class="skill-val">Playwright · Selenium · Scrapy · BeautifulSoup · HTTPX · asyncio</span>
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Browserautomatisierung:</span>
+                <span class="skill-val">Browser-Fingerprint-Verwaltung · Proxy-Rotation · Sitzungsverwaltung</span>
+            </div>
+        </div>
+
+        <!-- ════════════════════════════
+      BERUFSERFAHRUNG
+  ════════════════════════════ -->
+        <div class="sec-title">BERUFSERFAHRUNG</div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-role">Backend- und Automatisierungsentwickler — <span class="job-co"><a
+                            href="https://www.complyworld.com/indexEN.html" target="_blank"
+                            style="color: var(--accent); text-decoration: none;">Comply World</a></span></div>
+                <div class="job-dates">Dez. 2025 – heute</div>
+            </div>
+            <div class="job-loc">Casablanca, Marokko · Vollzeit</div>
+            <ul class="bullets">
+                <li>Entwicklung von REST-APIs und Integration externer Dienste zur Datenerfassung und -verarbeitung.
+                </li>
+                <li>Entwicklung und Wartung automatisierter Python-Anwendungen mit Playwright und Selenium.</li>
+                <li>Implementierung asynchroner Datenverarbeitung mit asyncio für parallele Arbeitsabläufe.</li>
+                <li>Bereitstellung von Microservices mit Docker und Kubernetes; Redis für Aufgabenwarteschlangen und
+                    Kafka für Ereignisströme.</li>
+            </ul>
+            <div class="stack">Technologien: Go · Python · asyncio · Playwright · Docker · Kubernetes · Kafka · Redis ·
+                MySQL · Microservices</div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-role">Praktikant in der Backend-Entwicklung - <span class="job-co"><a
+                            href="https://www.complyworld.com/indexEN.html" target="_blank"
+                            style="color: var(--accent); text-decoration: none;">Comply World</a></span></div>
+                <div class="job-dates">Mai 2025 – Juli 2025</div>
+            </div>
+            <div class="job-loc">Casablanca, Marokko · Praktikum</div>
+            <ul class="bullets">
+                <li>Koordination eines dreiköpfigen Entwicklungsteams durch Sprintplanung, Code-Reviews und fachliche
+                    Betreuung.</li>
+                <li>Entwicklung asynchroner und paralleler Datenextraktionspipelines mit Python, Multithreading und
+                    Multiprocessing.</li>
+                <li>Erstellung von Abläufen mit Python und Pandas zur Extraktion, Bereinigung und Transformation von
+                    Datensätzen für Netzwerkanalysen und Berichte.</li>
+            </ul>
+            <div class="stack">Technologien: PHP · Python · asyncio · MySQL · BeautifulSoup · Selenium · Cloudscraper ·
+                Pandas · Web Scraping</div>
+        </div>
+
+        <!-- ════════════════════════════
+      PROJEKTE
+  ════════════════════════════ -->
+        <div class="sec-title">PROJEKTE</div>
+
+        <div class="proj">
+            <div class="proj-header">
+                <div class="proj-name">Fast-Schneller — Fullstack-Plattform zur Bewerbungsautomatisierung</div>
+            </div>
+            <div class="proj-tech">Technologien: TypeScript · Next.js · Java 17 · Spring Boot · Go · Python · PostgreSQL
+                · Redis · Kafka · Docker · Microservices · PDF-Verarbeitung · REST-APIs</div>
+        </div>
+
+        <div class="proj">
+            <div class="proj-header">
+                <div class="proj-name">ARCH-X7 — Datenextraktion aus dem Web</div>
+            </div>
+            <div class="proj-tech">Technologien: Python · Go · C · asyncio · httpx · Playwright · Apache Kafka · Redis ·
+                K8s · Docker · MySQL · Microservices · Gemini AI</div>
+        </div>
+
+        <div class="proj">
+            <div class="proj-header">
+                <div class="proj-name">ScanOCR — Identity Document Data Extraction</div>
+            </div>
+            <div class="proj-tech">Technologien: Python · PaddleOCR · PaddlePaddle · OpenCV · Haar Cascades · Canny Edge
+                Detection · NumPy · Deep Learning</div>
+        </div>
+
+        <!-- ════════════════════════════
+      EDUCATION
+  ════════════════════════════ -->
+        <div class="sec-title">Ausbildung &amp; Weiterbildung</div>
+
+        <div class="edu">
+            <div class="edu-header">
+                <div class="edu-deg"><a href="https://alx-morocco.com/" target="_blank"
+                        style="color: var(--ink); text-decoration: none;">Softwareentwicklung – Cybersicherheit</a>
+                </div>
+                <div class="edu-dates">Feb. 2026 – heute</div>
+            </div>
+            <div class="edu-school"><a href="https://alx-morocco.com/" target="_blank"
+                    style="color: var(--light); text-decoration: none;">ALX Africa · Subverted</a> - Casablanca
+                Technopark, Marokko (hybrid)</div>
+        </div>
+
+        <div class="edu">
+            <div class="edu-header">
+                <div class="edu-deg"><a href="https://www.goethe.de/ins/ma/de/spr/prf/gzc1.cfm" target="_blank"
+                        style="color: var(--ink); text-decoration: none;">Deutschkurs – B2</a></div>
+                <div class="edu-dates">2022 – heute</div>
+            </div>
+            <div class="edu-school">Online / <a href="https://www.goethe.de/ins/ma/de/index.html" target="_blank"
+                    style="color: var(--light); text-decoration: none;">Goethe-Institut Casablanca</a> · Marokko</div>
+        </div>
+
+        <div class="edu">
+            <div class="edu-header">
+                <div class="edu-deg"><a href="https://youcode.ma/" target="_blank"
+                        style="color: var(--ink); text-decoration: none;">Concepteur Développeur d’Applications (CDA) –
+                        RNCP-Niveau 6</a></div>
+                <div class="edu-dates">Sept. 2024 – Apr. 2026</div>
+            </div>
+            <div class="edu-school"><a href="https://youcode.ma/" target="_blank"
+                    style="color: var(--light); text-decoration: none;">YouCode · UM6P (Universität) / Simplon</a> ·
+                Youssoufia,
+                Marokko
+            </div>
+            <div class="edu-school">Französische Berufsqualifikation · Schwerpunkt Fullstack-Entwicklung</div>
+        </div>
+
+        <div class="edu">
+            <div class="edu-header">
+                <div class="edu-deg"><a href="https://www.fsbm.ma/" target="_blank"
+                        style="color: var(--ink); text-decoration: none;">MIP — Mathematik, Informatik &amp; Physik</a>
+                </div>
+                <div class="edu-dates">Sept. 2021 – Juni 2022</div>
+            </div>
+            <div class="edu-school">Universität Hassan II · Ben M'sik · Casablanca, Marokko</div>
+        </div>
+
+        <div class="sec-title">WEITERE INFORMATIONEN</div>
+        <p class="skill-val"><strong>Sprachen:</strong> Arabisch (Muttersprache) · Französisch (B2) · Englisch (B2) ·
+            Deutsch (B2)</p>
+        <p class="skill-val"><strong>Kenntnisse:</strong> Analytisches &amp; logisches Denken · Strukturierte
+            Problemlösung</p>
+        <p class="skill-val"><strong>Interessen:</strong> <a href="https://www.chess.com/member/zackkardasch"
+                target="_blank" rel="noopener noreferrer"
+                style="color: var(--accent); text-decoration: none;">Schach</a> · Schwimmen</p>
+
+    </div><!-- /page -->
+
+    <!-- PDF generation scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        document.querySelector('.print-btn').addEventListener('click', async function () {
+            const button = this;
+            const originalText = button.innerHTML;
+
+            button.innerHTML = '&#8987; PDF wird erstellt...';
+            button.disabled = true;
+
+            try {
+                const pageElement = document.querySelector('.page');
+                const { jsPDF } = window.jspdf;
+
+                const canvas = await html2canvas(pageElement, {
+                    scale: 3,
+                    useCORS: true,
+                    allowTaint: true,
+                    logging: false,
+                    backgroundColor: '#ffffff',
+                    windowWidth: pageElement.scrollWidth,
+                    windowHeight: pageElement.scrollHeight,
+                    imageTimeout: 0,
+                    removeContainer: true
+                });
+
+                const imgData = canvas.toDataURL('image/jpeg', 1.0);
+                const pdf = new jsPDF({
+                    orientation: 'portrait',
+                    unit: 'mm',
+                    format: 'a4',
+                    compress: true
+                });
+
+                const pdfWidth = 210;
+                const pdfHeight = 297;
+                pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight, '', 'FAST');
+
+                // Add clickable links
+                const links = [];
+                const allLinks = pageElement.querySelectorAll('a[href]');
+                allLinks.forEach(link => {
+                    const rect = link.getBoundingClientRect();
+                    const pageRect = pageElement.getBoundingClientRect();
+                    links.push({
+                        url: link.href,
+                        x: rect.left - pageRect.left,
+                        y: rect.top - pageRect.top,
+                        width: rect.width,
+                        height: rect.height
+                    });
+                });
+
+                const scaleX = pdfWidth / pageElement.offsetWidth;
+                const scaleY = pdfHeight / pageElement.offsetHeight;
+                links.forEach(link => {
+                    pdf.link(link.x * scaleX, link.y * scaleY, link.width * scaleX, link.height * scaleY, { url: link.url });
+                });
+
+                pdf.save('Zakaria_Kardache_Lebenslauf_DE.pdf');
+                button.innerHTML = '&#10003; PDF heruntergeladen!';
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.disabled = false;
+                }, 2000);
+
+            } catch (error) {
+                console.error('Fehler bei der PDF-Erstellung:', error);
+                button.innerHTML = '&#10007; Fehler! Bitte erneut versuchen';
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    button.disabled = false;
+                }, 2000);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

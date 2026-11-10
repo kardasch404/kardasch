@@ -11,7 +11,7 @@ export default function ProjectsClient({ projects }: { projects: Project[] }) {
   const dispatch = useAppDispatch();
   const { selectedTech } = useAppSelector((state) => state.projects);
 
-  const allTech = Array.from(new Set(projects.flatMap((p) => p.tech)));
+  const allTech = Array.from(new Set(projects.flatMap((p) => p.stack)));
 
   return (
     <div className="mt-8">
@@ -50,12 +50,12 @@ export default function ProjectsClient({ projects }: { projects: Project[] }) {
         {filteredProjects.map((project) => (
           <Link key={project.id} href={`/projects/${project.slug}`}>
             <div className="border-4 border-black p-6 transition-all hover:bg-gray-100">
-              <h3 className="font-Impact text-3xl font-bold uppercase mb-2">{project.title}</h3>
+              <h3 className="font-Impact text-3xl font-bold uppercase mb-2">{project.name}</h3>
               <p className="font-EditorialNew text-base mb-4">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2">
-                {project.tech.map((tech) => (
+                {project.stack.map((tech) => (
                   <span
                     key={tech}
                     className="border border-black bg-gray-200 px-2 py-1 font-TimesNewRoman text-xs font-bold"

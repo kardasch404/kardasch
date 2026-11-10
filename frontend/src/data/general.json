@@ -1,0 +1,2455 @@
+{
+  "schemaVersion": "1.1.0",
+  "owner": {
+    "name": "Zakaria Kardache",
+    "title": "Backend & Automation Engineer",
+    "tagline": "Cloud Infrastructure · Microservices · Cybersecurity",
+    "location": {
+      "city": "Casablanca",
+      "country": "Morocco",
+      "openToRelocation": true,
+      "relocationTarget": "Canada"
+    },
+    "contact": {
+      "email": "kardasch.zakaria@outlook.de",
+      "phone": "+212 613-450-087",
+      "linkedin": "https://linkedin.com/in/ZakariaKardache",
+      "github": "https://github.com/kardasch404",
+      "xing": "https://xing.com/profile/ZakariaKardache"
+    },
+    "summary": "Backend & Automation Engineer with 1+ year of production experience building cloud-native systems at scale. Proven track record designing Kubernetes-based infrastructures, high-throughput data pipelines, and resilient microservices using Rust, Go, Python, and Elixir. Led a 3-person engineering team, shipped 6+ full-stack projects, and holds a Kubernetes & Cloud Native Essentials (KCNE) certification.",
+    "availableForWork": true,
+    "languages": [
+      {
+        "name": "Arabic",
+        "level": "Native",
+        "code": "ar"
+      },
+      {
+        "name": "French",
+        "level": "B2",
+        "code": "fr"
+      },
+      {
+        "name": "English",
+        "level": "B2",
+        "code": "en"
+      },
+      {
+        "name": "German",
+        "level": "B2 — C1 Jun 2026",
+        "code": "de"
+      }
+    ],
+    "interests": [
+      {
+        "label": "Chess",
+        "detail": "FIDE profile · Chess.com: zackkardasch"
+      },
+      {
+        "label": "Video Games",
+        "detail": null
+      },
+      {
+        "label": "Running",
+        "detail": null
+      },
+      {
+        "label": "PC Hardware & Tech",
+        "detail": null
+      },
+      {
+        "label": "Creative Design",
+        "detail": "Figma, Canva"
+      },
+      {
+        "label": "Travelling",
+        "detail": null
+      }
+    ]
+  },
+  "locations": [
+    {
+      "id": "youssoufia",
+      "label": "Youssoufia",
+      "countryCode": "MA",
+      "type": "city",
+      "current": false,
+      "tagline": "Full-Stack Formation Base",
+      "icon": "/icons/youcode.png",
+      "institutions": [
+        {
+          "name": "YouCode (UM6P)",
+          "role": "Full-Stack MERN Bootcamp",
+          "icon": "/icons/youcode.png",
+          "type": "education"
+        }
+      ],
+      "coordinates": {
+        "latitude": 32.246,
+        "longitude": -8.532
+      }
+    },
+    {
+      "id": "casablanca",
+      "label": "Casablanca",
+      "countryCode": "MA",
+      "type": "city",
+      "current": true,
+      "tagline": "Current Base & Active Operations",
+      "icon": "/icons/complyworld.png",
+      "institutions": [
+        {
+          "name": "Comply World",
+          "role": "Backend & Automation Engineer",
+          "icon": "/icons/complyworld.png",
+          "type": "work"
+        },
+        {
+          "name": "ALX Africa",
+          "role": "Cybersecurity Specialization",
+          "icon": "/icons/alx.webp",
+          "type": "education"
+        },
+        {
+          "name": "Faculté des Sciences Ben M'sik",
+          "role": "MIP — Mathematics, Computer Science & Physics",
+          "icon": "/icons/scbenMsik_icon.png",
+          "type": "education"
+        }
+      ],
+      "coordinates": {
+        "latitude": 33.57,
+        "longitude": -7.61
+      }
+    },
+    {
+      "id": "germany",
+      "label": "Deutschland",
+      "countryCode": "DE",
+      "type": "country",
+      "status": "future-goal",
+      "tagline": "Target Relocation Goal",
+      "coordinates": {
+        "latitude": 51,
+        "longitude": 10
+      }
+    }
+  ],
+  "presentations": [
+    {
+      "id": "rest-api-graphql",
+      "title": "REST API & GraphQL",
+      "type": "technical-presentation",
+      "language": "fr",
+      "date": null,
+      "locationId": "youssoufia",
+      "topics": [
+        "API",
+        "REST",
+        "GraphQL"
+      ],
+      "outline": [
+        "Introduction aux API",
+        "REST API",
+        "GraphQL",
+        "Comparaison REST vs GraphQL",
+        "Mise en pratique",
+        "Conclusion"
+      ],
+      "media": {
+        "coverId": "api-live",
+        "images": [
+          {
+            "id": "api-live",
+            "sourceFile": "imgs/live_coding_APIs_postamn.jpeg",
+            "src": "/photos/live_coding_APIs_postamn.webp",
+            "alt": "Live API demonstration using Postman.",
+            "caption": "Live API demonstration using Postman.",
+            "locationId": "youssoufia",
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "description": "API / REST / GraphQL",
+      "locationStatus": "confirmed-by-owner",
+      "recordType": "presentations"
+    },
+    {
+      "id": "react-testing-library-jest",
+      "title": "React Testing Library & Jest",
+      "type": "technical-presentation",
+      "language": "fr",
+      "date": null,
+      "locationId": "youssoufia",
+      "topics": [
+        "React",
+        "Testing Library",
+        "Jest",
+        "Testing"
+      ],
+      "outline": [
+        "Introduction à RTL et Jest",
+        "Pourquoi écrire des tests ?",
+        "Installation et configuration",
+        "Écrire les premiers tests",
+        "Tester les interactions utilisateur",
+        "Tester les composants avec state et context",
+        "Tests async, API et routes",
+        "Bonnes pratiques RTL",
+        "Extensions VS Code",
+        "Conclusion"
+      ],
+      "media": {
+        "coverId": "rtl-session",
+        "images": [
+          {
+            "id": "rtl-session",
+            "sourceFile": "imgs/Zakaria_RTL_pre.jpeg",
+            "src": "/photos/Zakaria_RTL_pre.webp",
+            "alt": "Presentation on why automated tests matter.",
+            "caption": "Presentation on why automated tests matter.",
+            "locationId": "youssoufia",
+            "width": 1600,
+            "height": 1200
+          },
+          {
+            "id": "rtl-detail",
+            "sourceFile": "imgs/Zakaria_RTL_pre_1.jpeg",
+            "src": "/photos/Zakaria_RTL_pre_1.webp",
+            "alt": "A closer view of the automated testing presentation.",
+            "caption": "A closer view of the automated testing presentation.",
+            "locationId": "youssoufia",
+            "width": 1600,
+            "height": 1200
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "description": "React / Testing Library / Jest / Testing",
+      "locationStatus": "confirmed-by-owner",
+      "recordType": "presentations"
+    },
+    {
+      "id": "express-validator-joi",
+      "title": "Validation des données avec Express Validator & Joi",
+      "type": "technical-presentation",
+      "language": "fr",
+      "date": null,
+      "locationId": "youssoufia",
+      "topics": [
+        "Node.js",
+        "Express",
+        "Express Validator",
+        "Joi"
+      ],
+      "outline": [
+        "Introduction",
+        "Objectif",
+        "Express Validator",
+        "Joi",
+        "Utilisation et instanciation",
+        "Définition Express Validator",
+        "Définition Joi",
+        "Sanitization",
+        "Validation personnalisée",
+        "Validation conditionnelle et imbriquée",
+        "Messages d’erreur personnalisés",
+        "Conclusion"
+      ],
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "description": "Node.js / Express / Express Validator / Joi",
+      "locationStatus": "confirmed-by-owner",
+      "recordType": "presentations"
+    },
+    {
+      "id": "authentication-authorization",
+      "title": "Authentification & Autorisation",
+      "type": "technical-presentation",
+      "language": "fr",
+      "date": null,
+      "locationId": "youssoufia",
+      "topics": [
+        "Authentication",
+        "Authorization",
+        "Security"
+      ],
+      "outline": [],
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "description": "Authentication / Authorization / Security",
+      "locationStatus": "confirmed-by-owner",
+      "recordType": "presentations"
+    },
+    {
+      "id": "devops-jenkins-docker",
+      "title": "DevOps, Jenkins & Docker",
+      "type": "technical-presentation",
+      "language": "fr",
+      "date": null,
+      "locationId": "youssoufia",
+      "topics": [
+        "DevOps",
+        "Jenkins",
+        "Docker"
+      ],
+      "outline": [],
+      "media": {
+        "coverId": "devops-diagram",
+        "images": [
+          {
+            "id": "devops-diagram",
+            "sourceFile": "imgs/devops_jenkiss_explain.jpeg",
+            "src": "/photos/devops_jenkiss_explain.webp",
+            "alt": "Presentation diagram connecting Docker, Kubernetes and Jenkins.",
+            "caption": "Presentation diagram connecting Docker, Kubernetes and Jenkins.",
+            "locationId": "youssoufia",
+            "width": 521,
+            "height": 1156
+          },
+          {
+            "id": "development-whiteboard",
+            "sourceFile": "imgs/zakaria_explain_dev.jpeg",
+            "src": "/photos/zakaria_explain_dev.webp",
+            "alt": "Development architecture explained on a whiteboard.",
+            "caption": "Development architecture explained on a whiteboard.",
+            "locationId": "youssoufia",
+            "width": 521,
+            "height": 1156
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "description": "DevOps / Jenkins / Docker",
+      "locationStatus": "confirmed-by-owner",
+      "recordType": "presentations"
+    },
+    {
+      "id": "stealth-scraping-cicd-workshop",
+      "title": "Stealth Web Scraping & Cloud-Native CI/CD Pipelines",
+      "type": "workshop",
+      "recordType": "presentations",
+      "language": "fr",
+      "date": "2026-05",
+      "locationId": "youssoufia",
+      "description": "Facilitated an intensive technical workshop diving into the architectures of advanced web scraping and robust DevOps pipelines. The workshop focused on practical, high-scale system implementations — helping participants understand both how to navigate complex web security measures stealthily, and how to architect the microservices needed to deploy and scale these systems reliably.",
+      "topics": [
+        "Playwright",
+        "Puppeteer",
+        "Selenium",
+        "Cloudscraper",
+        "Jenkins",
+        "SonarQube",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Slack API",
+        "Django",
+        "GitHub"
+      ],
+      "outline": [
+        "Advanced Stealth Web Scraping",
+        "Continuous Integration & Deployment (CI/CD)",
+        "Containerization & Orchestration",
+        "Infrastructure as Code & Operations"
+      ],
+      "media": {
+        "coverId": "scraping-whiteboard",
+        "images": [
+          {
+            "id": "scraping-whiteboard",
+            "sourceFile": "imgs/zakaria_explain_palywtiete_selenuim.jpeg",
+            "src": "/photos/zakaria_explain_palywtiete_selenuim.webp",
+            "alt": "Whiteboard explanation of Playwright, Selenium and scraping architecture.",
+            "caption": "Whiteboard explanation of Playwright, Selenium and scraping architecture.",
+            "locationId": "youssoufia",
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "locationStatus": "confirmed-by-owner"
+    },
+    {
+      "id": "application-data-modelling",
+      "title": "Application design & data modelling",
+      "type": "technical-session",
+      "recordType": "presentations",
+      "language": null,
+      "date": null,
+      "locationId": "youssoufia",
+      "description": "Collaborative design notes and data modelling on the whiteboard.",
+      "topics": [
+        "Application design",
+        "Data modelling"
+      ],
+      "outline": [],
+      "media": {
+        "coverId": "conception-whiteboard",
+        "images": [
+          {
+            "id": "conception-whiteboard",
+            "sourceFile": "imgs/zakaria_explain_conception.jpeg",
+            "src": "/photos/zakaria_explain_conception.webp",
+            "alt": "Collaborative data modelling and application design.",
+            "caption": "Collaborative data modelling and application design.",
+            "locationId": "youssoufia",
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "canva": null,
+        "slides": null,
+        "repository": null,
+        "other": []
+      },
+      "locationStatus": "confirmed-by-owner"
+    }
+  ],
+  "events": [
+    {
+      "id": "youcode-sofrecom-hackathon",
+      "title": "Hackathon YouCode × Sofrecom",
+      "type": "hackathon",
+      "date": {
+        "year": null,
+        "month": 11,
+        "day": 7
+      },
+      "locationId": null,
+      "organizers": [
+        "YouCode Maroc",
+        "Sofrecom"
+      ],
+      "projectId": "medilink-ai",
+      "team": [
+        "Hamza Elboukri",
+        "Mohamed Eddahmani",
+        "Abdel Ilah Essemlali",
+        "Zakaria Kardache"
+      ],
+      "media": {
+        "coverId": "medilink-team",
+        "images": [
+          {
+            "id": "medilink-team",
+            "sourceFile": "imgs/hackathon_yake_team.jpeg",
+            "src": "/photos/hackathon_yake_team.webp",
+            "alt": "The team working together beside the MediLink whiteboard.",
+            "caption": "The team working together beside the MediLink whiteboard.",
+            "locationId": null,
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "post": null,
+        "other": []
+      },
+      "recordType": "events",
+      "description": "Team collaboration on the MediLink AI prototype during the YouCode and Sofrecom hackathon."
+    },
+    {
+      "id": "collaborative-coding",
+      "title": "Collaborative coding session",
+      "type": "coding-session",
+      "recordType": "events",
+      "date": null,
+      "locationId": null,
+      "description": "A moment from a collaborative coding session.",
+      "media": {
+        "coverId": "coding-session",
+        "images": [
+          {
+            "id": "coding-session",
+            "sourceFile": "imgs/zakaria_hackmann.jpeg",
+            "src": "/photos/zakaria_hackmann.webp",
+            "alt": "A collaborative coding session.",
+            "caption": "A collaborative coding session.",
+            "locationId": null,
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "other": []
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "ostora",
+      "slug": "ostora",
+      "name": "Ostora",
+      "tagline": "Intelligent SaaS Job Application Platform",
+      "description": "Full-stack cloud-native SaaS platform automating the end-to-end job application lifecycle. Combines AI-powered CV parsing, tailored cover letter synthesis, and real-time B2B candidate-recruiter matching over an event-driven microservices architecture.",
+      "type": "saas",
+      "featured": true,
+      "status": "built",
+      "github": null,
+      "demo": null,
+      "stack": [
+        "TypeScript",
+        "NestJS",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "Kafka",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "AWS",
+        "Playwright",
+        "WebSockets"
+      ],
+      "highlights": [
+        "Built asynchronous \"Fast Apply\" worker pools using Playwright and Kafka consumers.",
+        "Engineered AI CV parsing and dynamic cover letter synthesis tailored to job requirements.",
+        "Implemented real-time application telemetry streamed to the client via WebSockets.",
+        "Automated CI/CD deployment pipelines using Jenkins, Docker, and Terraform on AWS."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Event-driven microservices orchestrated via Apache Kafka, pairing NestJS API gateways with distributed Playwright automation workers and Elasticsearch indexing on AWS Kubernetes.",
+      "role": "Lead Full-Stack & Cloud Infrastructure Engineer",
+      "metrics": [
+        {
+          "label": "Architecture",
+          "value": "Event-Driven SaaS"
+        },
+        {
+          "label": "Search Engine",
+          "value": "Elasticsearch + AI"
+        },
+        {
+          "label": "Streaming",
+          "value": "Apache Kafka"
+        },
+        {
+          "label": "Infrastructure",
+          "value": "AWS + K8s + Terraform"
+        }
+      ],
+      "engineeringConcepts": [
+        "Event-Driven Microservices",
+        "AI Document Synthesis",
+        "Full-Text Search Indexing",
+        "Browser Automation At Scale",
+        "Infrastructure as Code (Terraform)",
+        "Real-Time WebSockets"
+      ],
+      "category": "Cloud & SaaS Engineering",
+      "shortDescription": "Intelligent Job Application Platform",
+      "problem": "Manual job applications and generic CVs result in low response rates, while scraping live B2B job boards at scale triggers rate limits and blocks.",
+      "architectureNodes": [
+        "Next.js / WS",
+        "NestJS Gateway",
+        "Kafka Event Bus",
+        "Playwright + AI",
+        "Postgres / Elastic"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "NestJS & TypeScript",
+          "reason": "Modular dependency injection and strict typing across microservice boundaries."
+        },
+        {
+          "tech": "Apache Kafka",
+          "reason": "Decouples high-volume automated application jobs from real-time user HTTP requests."
+        },
+        {
+          "tech": "Elasticsearch + Redis",
+          "reason": "Sub-second B2B job matching and low-latency caching of candidate profiles."
+        },
+        {
+          "tech": "AWS + Terraform + K8s",
+          "reason": "Reproducible infrastructure-as-code with auto-scaling worker pods."
+        }
+      ],
+      "backendEngineering": [
+        "Built asynchronous \"Fast Apply\" worker pools using Playwright and Kafka consumers.",
+        "Engineered AI CV parsing and dynamic cover letter synthesis tailored to job requirements.",
+        "Implemented real-time application telemetry streamed to the client via WebSockets.",
+        "Automated CI/CD deployment pipelines using Jenkins, Docker, and Terraform on AWS."
+      ]
+    },
+    {
+      "id": "arch-x7",
+      "slug": "arch-x7",
+      "name": "ARCH-X7",
+      "tagline": "Scalable Distributed Data Extraction & Orchestration System",
+      "description": "ARCH-X7 is a multi-language microservices pipeline built to handle large-scale web context retrieval for LLMs and enterprise applications. Designed with extreme performance, fault tolerance, self-healing orchestration, and resource optimization at its core.",
+      "type": "security",
+      "featured": true,
+      "status": "built",
+      "github": null,
+      "demo": null,
+      "stack": [
+        "Elixir",
+        "Go",
+        "Rust",
+        "Python",
+        "C",
+        "Playwright",
+        "Apache Kafka",
+        "RabbitMQ",
+        "Redis",
+        "Lua",
+        "Brotli",
+        "Kubernetes",
+        "KEDA",
+        "Docker",
+        "MySQL",
+        "Microservices"
+      ],
+      "highlights": [
+        "Engineered a 3-tier Redis caching engine with atomic Lua scripts and Brotli compression (-85% payload size).",
+        "Built an automated session warming pool injecting serialized Cookies and LocalStorage (<10s latency).",
+        "Decoupled API ingestion from worker execution using Kafka and RabbitMQ message brokers.",
+        "Orchestrated polyglot services (Elixir, Go, Rust, Python, C) on Kubernetes with KEDA autoscaling."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Polyglot microservices pipeline combining Elixir OTP supervision, Go network recon, Rust zero-copy parsing, and a 3-tier Redis Lua caching layer decoupled via Kafka and RabbitMQ.",
+      "role": "Lead Systems & Distributed Backend Architect",
+      "metrics": [
+        {
+          "label": "Payload Size",
+          "value": "-85% (Brotli + Lua)"
+        },
+        {
+          "label": "Response Time",
+          "value": "< 10s End-to-End"
+        },
+        {
+          "label": "Polyglot Core",
+          "value": "5 Languages"
+        },
+        {
+          "label": "Cache Engine",
+          "value": "3-Tier Soft/Hard TTL"
+        }
+      ],
+      "engineeringConcepts": [
+        "Polyglot Microservices",
+        "OTP Fault-Tolerant Supervision",
+        "3-Tier Redis Lua Caching",
+        "Cache Stampede Prevention",
+        "Brotli Payload Compression",
+        "Session Context Serialization",
+        "Kafka & RabbitMQ Decoupling"
+      ],
+      "category": "Distributed Systems",
+      "shortDescription": "Distributed Extraction & Orchestration",
+      "problem": "Single-language scraping pipelines collapse under enterprise WAF protections, suffer from cache stampedes under concurrent load, and block HTTP threads during slow extractions.",
+      "architectureNodes": [
+        "API Gateway",
+        "Kafka / RabbitMQ",
+        "Elixir OTP Core",
+        "Go / Rust / Python",
+        "3-Tier Redis Lua"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "Elixir (OTP) + Go + Rust",
+          "reason": "Elixir for self-healing supervision trees, Go for fast network recon, and Rust for zero-copy HTML parsing."
+        },
+        {
+          "tech": "3-Tier Redis + Lua + Brotli",
+          "reason": "Atomic Lua scripts with Soft/Hard TTLs and Brotli compression cut payload size by 85% and stop Cache Stampedes."
+        },
+        {
+          "tech": "Kafka & RabbitMQ + KEDA",
+          "reason": "Zero-blocking asynchronous task queues with event-driven Kubernetes pod autoscaling."
+        },
+        {
+          "tech": "Session Hydration Pool",
+          "reason": "Pre-warms and serializes Cookies/LocalStorage contexts to keep end-to-end extraction under 10s."
+        }
+      ],
+      "backendEngineering": [
+        "Engineered a 3-tier Redis caching engine with atomic Lua scripts and Brotli compression (-85% payload size).",
+        "Built an automated session warming pool injecting serialized Cookies and LocalStorage (<10s latency).",
+        "Decoupled API ingestion from worker execution using Kafka and RabbitMQ message brokers.",
+        "Orchestrated polyglot services (Elixir, Go, Rust, Python, C) on Kubernetes with KEDA autoscaling."
+      ]
+    },
+    {
+      "id": "gamingzone",
+      "slug": "gamingzone",
+      "name": "GamingZone",
+      "tagline": "E-Commerce Platform Specializing in Gaming Products (12 Microservices)",
+      "shortDescription": "12-Microservice Gaming E-Commerce Platform",
+      "category": "Distributed Microservices & CI/CD",
+      "description": "E-commerce platform specializing in the sale of gaming products, engineered as a 12-repository distributed microservices ecosystem. Orchestrates a Next.js storefront, unified API Gateway (GraphQL & REST API), Apache Kafka event-driven order/payment/inventory sagas, Redis shopping cart & catalog caching, shared TypeScript domain contracts, and automated Jenkins Groovy + Docker CI/CD infrastructure.",
+      "type": "microservices",
+      "featured": true,
+      "status": "built",
+      "github": "https://github.com/kardasch404/GamingZone",
+      "demo": null,
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "GraphQL",
+        "REST API",
+        "Apache Kafka",
+        "Redis",
+        "Docker",
+        "Jenkins",
+        "Groovy",
+        "Microservices"
+      ],
+      "highlights": [
+        "Architected a 12-repository distributed microservices ecosystem (Storefront, API Gateway, Payment, Order, Cart, Inventory, Catalog, Shared Lib, User Profile, Notification, Auth, Infrastructure).",
+        "Implemented event-driven Saga choreography over Apache Kafka between Order, Inventory, Payment, and Notification microservices.",
+        "Engineered ultra-low-latency Redis shopping cart state and catalog caching behind a unified GraphQL & REST API Gateway.",
+        "Automated multi-service container builds and CI/CD pipelines using Jenkins declarative Groovy pipelines and Docker."
+      ],
+      "problem": "Monolithic gaming e-commerce stores buckle under flash-sale traffic spikes, suffer from inventory race conditions during concurrent checkouts, and create deployment bottlenecks when scaling catalog, cart, and payment modules independently.",
+      "architecture": "12-repository distributed microservices architecture fronted by Next.js and a unified API Gateway (GraphQL + REST), backed by Redis cart/inventory caching, Apache Kafka event streams, shared TypeScript domain contracts, and Jenkins Groovy CI/CD.",
+      "architectureNodes": [
+        "Next.js Storefront",
+        "API Gateway (GQL/REST)",
+        "Auth / Catalog / Cart",
+        "Kafka Saga Bus",
+        "Order / Payment / Inv"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "12 Decoupled Repositories + Shared Lib",
+          "reason": "Independent service lifecycles and deployments while enforcing strict TypeScript DTO and event contracts via gamingzone-shared-lib."
+        },
+        {
+          "tech": "Apache Kafka Event Bus",
+          "reason": "Asynchronous order-to-payment-to-inventory reservation sagas and real-time customer notifications without blocking checkout HTTP threads."
+        },
+        {
+          "tech": "GraphQL + REST API Gateway",
+          "reason": "Unified edge routing combining flexible GraphQL storefront queries with high-throughput REST endpoints."
+        },
+        {
+          "tech": "Jenkins (Groovy) + Docker + Redis",
+          "reason": "Automated CI/CD infrastructure pipelines and sub-millisecond Redis cart & stock lookups during peak gaming drops."
+        }
+      ],
+      "backendEngineering": [
+        "Architected a 12-repository distributed microservices ecosystem (Storefront, API Gateway, Payment, Order, Cart, Inventory, Catalog, Shared Lib, User Profile, Notification, Auth, Infrastructure).",
+        "Implemented event-driven Saga choreography over Apache Kafka between Order, Inventory, Payment, and Notification microservices.",
+        "Engineered ultra-low-latency Redis shopping cart state and catalog caching behind a unified GraphQL & REST API Gateway.",
+        "Automated multi-service container builds and CI/CD pipelines using Jenkins declarative Groovy pipelines and Docker."
+      ],
+      "role": "Lead Distributed Systems & Microservices Architect",
+      "engineeringConcepts": [
+        "Distributed Microservices (12 Repos)",
+        "API Gateway Pattern (GraphQL & REST)",
+        "Event-Driven Kafka Sagas",
+        "Redis Cart & Inventory Caching",
+        "Shared Library Contract Design",
+        "Jenkins Groovy CI/CD Automation"
+      ],
+      "metrics": [
+        {
+          "label": "Microservices",
+          "value": "12 Public Repositories"
+        },
+        {
+          "label": "Event Streaming",
+          "value": "Apache Kafka + Redis"
+        },
+        {
+          "label": "Edge Protocol",
+          "value": "GraphQL + REST Gateway"
+        },
+        {
+          "label": "CI/CD Pipeline",
+          "value": "Jenkins Groovy + Docker"
+        }
+      ],
+      "repositories": [
+        {
+          "name": "GamingZone",
+          "url": "https://github.com/kardasch404/GamingZone",
+          "visibility": "Public",
+          "role": "E-commerce platform specializing in the sale of products gaming",
+          "topics": ["graphql", "docker", "redis", "jenkins", "kafka", "rest-api", "nextjs"],
+          "language": "TypeScript",
+          "stars": 5,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-payment",
+          "url": "https://github.com/kardasch404/gamingzone-payment",
+          "visibility": "Public",
+          "role": "gamingzone-payment — Payment Processing & Transaction Verification Microservice",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-order",
+          "url": "https://github.com/kardasch404/gamingzone-order",
+          "visibility": "Public",
+          "role": "gamingzone-order — Order Lifecycle & Kafka Saga Coordinator Microservice",
+          "language": "TypeScript",
+          "stars": 5,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-cart",
+          "url": "https://github.com/kardasch404/gamingzone-cart",
+          "visibility": "Public",
+          "role": "gamingzone-cart — High-Speed Redis Shopping Cart Microservice",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-inventory",
+          "url": "https://github.com/kardasch404/gamingzone-inventory",
+          "visibility": "Public",
+          "role": "gamingzone-inventory — Real-Time Stock Reservation & Warehouse Microservice",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-catalog",
+          "url": "https://github.com/kardasch404/gamingzone-catalog",
+          "visibility": "Public",
+          "role": "gamingzone-catalog — Gaming Product Catalog & Search Microservice",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Mar 3"
+        },
+        {
+          "name": "gamingzone-shared-lib",
+          "url": "https://github.com/kardasch404/gamingzone-shared-lib",
+          "visibility": "Public",
+          "role": "gamingzone-shared-lib — Shared TypeScript DTOs, Kafka Event Schemas & Middlewares",
+          "language": "TypeScript"
+        },
+        {
+          "name": "gamingzone-api-gateway",
+          "url": "https://github.com/kardasch404/gamingzone-api-gateway",
+          "visibility": "Public",
+          "role": "gamingzone-api-gateway — Unified Edge API Gateway & Request Router",
+          "language": "TypeScript",
+          "stars": 5,
+          "updated": "Updated on Jan 25"
+        },
+        {
+          "name": "gamingzone-user-profile",
+          "url": "https://github.com/kardasch404/gamingzone-user-profile",
+          "visibility": "Public",
+          "role": "gamingzone-user-profile — Customer Profile, Preferences & Address Management",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Jan 25"
+        },
+        {
+          "name": "gamingzone-notification",
+          "url": "https://github.com/kardasch404/gamingzone-notification",
+          "visibility": "Public",
+          "role": "gamingzone-notification — Event-Driven Email & Order Status Notification Worker",
+          "language": "TypeScript",
+          "stars": 4,
+          "updated": "Updated on Jan 25"
+        },
+        {
+          "name": "gamingzone-auth",
+          "url": "https://github.com/kardasch404/gamingzone-auth",
+          "visibility": "Public",
+          "role": "gamingzone-auth — Identity, JWT Token Issuance & RBAC Security Service",
+          "language": "TypeScript",
+          "stars": 1,
+          "updated": "Updated on Jan 24"
+        },
+        {
+          "name": "gamingzone-infrastructure",
+          "url": "https://github.com/kardasch404/gamingzone-infrastructure",
+          "visibility": "Public",
+          "role": "gamingzone-infrastructure — Jenkins Declarative Groovy Pipelines & Docker Orchestration",
+          "language": "Groovy",
+          "stars": 4,
+          "updated": "Updated on Jan 23"
+        }
+      ]
+    },
+    {
+      "id": "scan-ocr",
+      "slug": "scan-ocr",
+      "name": "scanOCR",
+      "tagline": "Advanced Identity Document Analysis & Biometric Extraction",
+      "description": "Offline-first computer vision pipeline engineered for automated identity document verification. Extracts biometric facial regions, MRZ (Machine Readable Zone) codes, and multilingual fields using spatial zone recognition and deep OCR models without external API dependencies.",
+      "type": "ai-cv",
+      "featured": true,
+      "status": "built",
+      "github": null,
+      "demo": null,
+      "stack": [
+        "Python",
+        "PaddleOCR",
+        "PaddlePaddle",
+        "OpenCV",
+        "Haar Cascades",
+        "Canny Edge Detection",
+        "NumPy",
+        "Deep Learning"
+      ],
+      "highlights": [
+        "Built an offline-first document processing pipeline with zero external network dependencies.",
+        "Implemented automated image deskewing, adaptive thresholding, and spatial zone cropping.",
+        "Extracted and validated ICAO MRZ lines alongside multilingual personal fields.",
+        "Isolated biometric facial portraits and signatures with automated quality scoring."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "100% offline computer vision pipeline: OpenCV perspective deskewing and Canny contour isolation feeding into spatial zone segmentation and PaddleOCR deep recognition.",
+      "role": "Computer Vision & Backend Engineer",
+      "metrics": [
+        {
+          "label": "Execution Mode",
+          "value": "100% Offline-First"
+        },
+        {
+          "label": "Vision Engine",
+          "value": "OpenCV + PaddleOCR"
+        },
+        {
+          "label": "Standards",
+          "value": "ICAO 9303 MRZ"
+        },
+        {
+          "label": "Capabilities",
+          "value": "Biometrics + Multi-Lang"
+        }
+      ],
+      "engineeringConcepts": [
+        "Spatial Zone Recognition",
+        "Canny Edge & Contour Detection",
+        "ICAO MRZ Checksum Parsing",
+        "Biometric Face Isolation",
+        "Image Pre-Processing & Deskewing",
+        "Offline Deep Learning Inference"
+      ],
+      "category": "Computer Vision & Backend",
+      "shortDescription": "Identity Document & Biometric OCR",
+      "problem": "Cloud OCR APIs introduce privacy risks for sensitive identity documents, fail in air-gapped environments, and struggle with tilted mobile scans and ICAO MRZ checksums.",
+      "architectureNodes": [
+        "Raw Scan Input",
+        "OpenCV Deskew",
+        "Spatial Zone Split",
+        "PaddleOCR + Haar",
+        "MRZ Checksum"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "OpenCV + Canny Edge",
+          "reason": "Automated perspective correction, noise reduction, and document boundary isolation."
+        },
+        {
+          "tech": "PaddleOCR (Offline)",
+          "reason": "High-accuracy multilingual character recognition running locally without external API calls."
+        },
+        {
+          "tech": "Haar Cascades",
+          "reason": "Fast local biometric portrait and signature region extraction."
+        },
+        {
+          "tech": "ICAO 9303 Validator",
+          "reason": "Deterministic checksum verification on Machine Readable Zones (MRZ) to eliminate OCR hallucinations."
+        }
+      ],
+      "backendEngineering": [
+        "Built an offline-first document processing pipeline with zero external network dependencies.",
+        "Implemented automated image deskewing, adaptive thresholding, and spatial zone cropping.",
+        "Extracted and validated ICAO MRZ lines alongside multilingual personal fields.",
+        "Isolated biometric facial portraits and signatures with automated quality scoring."
+      ]
+    },
+    {
+      "id": "eventra",
+      "slug": "eventra",
+      "name": "Eventra",
+      "tagline": "Event Management & Ticketing Platform",
+      "description": "Designed and developed a full-stack event management and ticketing platform using Next.js, React, TypeScript, NestJS, GraphQL, MongoDB, and Redis — structured around strict Clean Architecture principles.",
+      "type": "fullstack",
+      "featured": true,
+      "status": "built",
+      "github": "https://github.com/kardasch404/Eventra",
+      "demo": null,
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "NestJS",
+        "GraphQL",
+        "MongoDB",
+        "Mongoose",
+        "Redis",
+        "PDFKit",
+        "QR Code",
+        "JWT",
+        "Passport",
+        "Docker",
+        "GitHub Actions",
+        "Jest"
+      ],
+      "highlights": [
+        "Separated Presentation, Application, Domain, and Infrastructure layers following Clean Architecture.",
+        "Enforced domain-level business rules for reservation eligibility, live capacity limits, and cancellations.",
+        "Built automated PDFKit + QR code ticket generation and role-based access control (Passport + JWT).",
+        "Integrated Redis caching for expensive operations and automated CI/CD checks with Docker & GitHub Actions."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Strict 4-layer Clean Architecture (Presentation, Application, Domain, Infrastructure) with a NestJS + GraphQL backend, MongoDB persistence, Redis caching, and automated PDF/QR ticketing.",
+      "role": "Full-Stack & Backend Architect",
+      "metrics": [
+        {
+          "label": "Architecture",
+          "value": "Clean Arch (4 Layers)"
+        },
+        {
+          "label": "API Protocol",
+          "value": "GraphQL + NestJS"
+        },
+        {
+          "label": "Ticketing",
+          "value": "PDFKit + QR Codes"
+        },
+        {
+          "label": "Caching",
+          "value": "Redis High-Speed"
+        }
+      ],
+      "engineeringConcepts": [
+        "Clean Architecture",
+        "Domain-Driven Business Rules",
+        "Role-Based Access Control (RBAC)",
+        "GraphQL Schema & Resolvers",
+        "Redis Query Caching",
+        "Automated PDF & QR Synthesis",
+        "Docker & GitHub Actions CI/CD"
+      ],
+      "category": "Full-Stack & Clean Architecture",
+      "shortDescription": "Event Management & Ticketing Platform",
+      "problem": "Traditional event platforms suffer from tightly coupled booking logic, slow repeated queries during peak ticket sales, and manual ticket validation bottlenecks.",
+      "architectureNodes": [
+        "Next.js + React",
+        "GraphQL API",
+        "Clean Arch Domain",
+        "Redis Cache",
+        "MongoDB + PDF/QR"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "Clean Architecture (4 Layers)",
+          "reason": "Isolates core domain rules (capacity, eligibility, cancellations) from framework and database details."
+        },
+        {
+          "tech": "NestJS + GraphQL",
+          "reason": "Strongly-typed schema resolvers allowing flexible client queries without over-fetching."
+        },
+        {
+          "tech": "Redis Caching",
+          "reason": "Caches high-traffic event listings and expensive aggregations for sub-millisecond reads."
+        },
+        {
+          "tech": "PDFKit + QR Codes",
+          "reason": "Generates downloadable, cryptographically verifiable passes immediately upon booking confirmation."
+        }
+      ],
+      "backendEngineering": [
+        "Separated Presentation, Application, Domain, and Infrastructure layers following Clean Architecture.",
+        "Enforced domain-level business rules for reservation eligibility, live capacity limits, and cancellations.",
+        "Built automated PDFKit + QR code ticket generation and role-based access control (Passport + JWT).",
+        "Integrated Redis caching for expensive operations and automated CI/CD checks with Docker & GitHub Actions."
+      ]
+    },
+    {
+      "id": "healthpulse",
+      "slug": "healthpulse",
+      "name": "HealthPulse",
+      "tagline": "Medical Management System — Backend Architecture",
+      "description": "Resilient backend system engineered for clinical and medical facility management. Features asynchronous job queues for medical report processing, S3-compatible object storage for diagnostic imaging, and strict role-based access control for patient data privacy.",
+      "type": "backend",
+      "featured": true,
+      "status": "built",
+      "github": "https://github.com/kardasch404/HealthPulse",
+      "demo": null,
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "Bull Queue",
+        "MinIO",
+        "Docker",
+        "JWT",
+        "RBAC",
+        "REST API",
+        "Jest"
+      ],
+      "highlights": [
+        "Engineered asynchronous background workers with Bull Queue and Redis for non-blocking clinical workflows.",
+        "Integrated MinIO object storage with secure pre-signed URLs for medical imaging and lab reports.",
+        "Implemented multi-role RBAC middleware and JWT authentication protecting patient endpoints.",
+        "Containerized the entire stack with Docker and validated endpoints with automated Jest test suites."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Layered RESTful backend powered by Node.js and Express, offloading heavy tasks to Redis-backed Bull job queues and storing encrypted clinical documents in self-hosted MinIO S3 vaults.",
+      "role": "Backend Software Engineer",
+      "metrics": [
+        {
+          "label": "Async Engine",
+          "value": "Bull Queue + Redis"
+        },
+        {
+          "label": "Object Storage",
+          "value": "MinIO S3 Vault"
+        },
+        {
+          "label": "Security",
+          "value": "JWT + Clinical RBAC"
+        },
+        {
+          "label": "Testing",
+          "value": "Jest Automated Suite"
+        }
+      ],
+      "engineeringConcepts": [
+        "Asynchronous Job Queues (Bull)",
+        "S3-Compatible Object Storage (MinIO)",
+        "Clinical Role-Based Authorization",
+        "RESTful API Design",
+        "Audit Logging & Data Privacy",
+        "Containerized Micro-Infrastructure"
+      ],
+      "category": "Backend Engineering",
+      "shortDescription": "Medical Management System",
+      "problem": "Clinical systems face blocked HTTP threads during heavy medical report generation, insecure storage of diagnostic files, and weak permission boundaries around patient data.",
+      "architectureNodes": [
+        "REST API + JWT",
+        "Clinical RBAC",
+        "Bull Queue + Redis",
+        "MinIO S3 Vault",
+        "MongoDB Indexed"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "Bull Queue + Redis",
+          "reason": "Offloads heavy PDF report generation and appointment notifications to non-blocking background workers."
+        },
+        {
+          "tech": "MinIO Object Storage",
+          "reason": "Self-hosted S3-compatible vault with time-limited pre-signed URLs for sensitive diagnostic files."
+        },
+        {
+          "tech": "MongoDB + Compound Indexes",
+          "reason": "Fast patient medical history queries and conflict-free appointment slot lookups."
+        },
+        {
+          "tech": "JWT + Granular RBAC",
+          "reason": "Enforces strict access isolation between Doctors, Receptionists, Patients, and Admins."
+        }
+      ],
+      "backendEngineering": [
+        "Engineered asynchronous background workers with Bull Queue and Redis for non-blocking clinical workflows.",
+        "Integrated MinIO object storage with secure pre-signed URLs for medical imaging and lab reports.",
+        "Implemented multi-role RBAC middleware and JWT authentication protecting patient endpoints.",
+        "Containerized the entire stack with Docker and validated endpoints with automated Jest test suites."
+      ]
+    },
+    {
+      "id": "walletly",
+      "slug": "walletly",
+      "name": "Walletly",
+      "tagline": "Personal Finance Management Application",
+      "description": "Developed a full-stack personal finance application using Node.js, Express, MySQL, Sequelize, and EJS, structured around a layered MVC, Service, and Repository architecture for multi-wallet tracking, budgeting, and visual analytics.",
+      "type": "fullstack",
+      "featured": false,
+      "status": "built",
+      "github": null,
+      "demo": null,
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Sequelize",
+        "EJS",
+        "Tailwind CSS",
+        "JavaScript",
+        "Chart.js",
+        "Joi",
+        "bcrypt",
+        "Docker Compose"
+      ],
+      "highlights": [
+        "Structured the backend into distinct Controller, Service, and Repository layers over Sequelize ORM.",
+        "Built multi-wallet balance tracking, monthly category budgets, and automated savings goal calculations.",
+        "Implemented searchable, filterable transaction histories and aggregated endpoints for Chart.js.",
+        "Secured user sessions with bcrypt password hashing, Joi schema validation, and Docker Compose."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Layered MVC application with dedicated Service and Repository patterns, backed by relational MySQL + Sequelize schemas, Joi validation, and interactive Chart.js analytics.",
+      "role": "Full-Stack Software Engineer",
+      "metrics": [
+        {
+          "label": "Architecture",
+          "value": "MVC + Service + Repo"
+        },
+        {
+          "label": "Data Layer",
+          "value": "MySQL + Sequelize"
+        },
+        {
+          "label": "Visualizations",
+          "value": "Chart.js Analytics"
+        },
+        {
+          "label": "Validation",
+          "value": "Joi + Bcrypt Auth"
+        }
+      ],
+      "engineeringConcepts": [
+        "MVC Architecture",
+        "Service Layer Pattern",
+        "Repository Pattern",
+        "Relational Database Modeling",
+        "Session Authentication & Bcrypt",
+        "Joi Schema Validation"
+      ],
+      "category": "Full-Stack Backend",
+      "shortDescription": "Personal Finance Management System",
+      "problem": "Managing personal finances across multiple accounts without structured category budgets, transaction search, or visual cash-flow breakdowns leads to poor spending visibility.",
+      "architectureNodes": [
+        "EJS + Chart.js",
+        "MVC Controllers",
+        "Service Layer",
+        "Sequelize Repo",
+        "MySQL Relational"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "MVC + Service + Repository",
+          "reason": "Cleanly separates HTTP routing, financial calculation logic, and Sequelize database queries."
+        },
+        {
+          "tech": "MySQL + Sequelize ORM",
+          "reason": "ACID-compliant relational transactions for multi-wallet balances, budgets, and savings goals."
+        },
+        {
+          "tech": "Joi + Bcrypt Sessions",
+          "reason": "Strict server-side payload validation and hardened session-based authentication."
+        },
+        {
+          "tech": "Chart.js Visualizations",
+          "reason": "Renders interactive monthly category burndown and income-vs-expense analytics."
+        }
+      ],
+      "backendEngineering": [
+        "Structured the backend into distinct Controller, Service, and Repository layers over Sequelize ORM.",
+        "Built multi-wallet balance tracking, monthly category budgets, and automated savings goal calculations.",
+        "Implemented searchable, filterable transaction histories and aggregated endpoints for Chart.js.",
+        "Secured user sessions with bcrypt password hashing, Joi schema validation, and Docker Compose."
+      ]
+    },
+    {
+      "id": "loughat",
+      "slug": "loughat",
+      "name": "Loughat",
+      "tagline": "E-Learning Management System",
+      "description": "Developed a full-featured e-learning platform using Laravel, PHP, MySQL, and Blade, connecting students and teachers through structured course management, enrollment, payment abstraction, and interactive learning workflows.",
+      "type": "fullstack",
+      "featured": false,
+      "status": "built",
+      "github": null,
+      "demo": null,
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Eloquent ORM",
+        "Blade",
+        "Vite",
+        "JavaScript",
+        "Stripe SDK",
+        "Cloudinary",
+        "PHPUnit",
+        "Docker/Sail",
+        "Repository Pattern",
+        "Strategy Pattern"
+      ],
+      "highlights": [
+        "Implemented 3-tier role authorization for Administrators, Teachers (with approval workflows), and Students.",
+        "Engineered order and payment processing using the Strategy Pattern and Stripe SDK.",
+        "Enforced domain purchase-eligibility rules before allowing course or teacher reviews.",
+        "Integrated Cloudinary for media management and validated core flows with PHPUnit in Docker/Sail."
+      ],
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "architecture": "Laravel MVC architecture enhanced with the Repository Pattern for data access and the Strategy Pattern for pluggable payment providers, paired with Cloudinary CDN and MySQL.",
+      "role": "Full-Stack Laravel Engineer",
+      "metrics": [
+        {
+          "label": "Design Patterns",
+          "value": "Repo + Strategy"
+        },
+        {
+          "label": "Authorization",
+          "value": "3-Role RBAC (Admin/T/S)"
+        },
+        {
+          "label": "Payments",
+          "value": "Stripe SDK Strategy"
+        },
+        {
+          "label": "Media CDN",
+          "value": "Cloudinary Pipeline"
+        }
+      ],
+      "engineeringConcepts": [
+        "MVC Architecture",
+        "Repository Pattern",
+        "Strategy Pattern",
+        "Request Validation",
+        "Relational Database Modeling",
+        "Role-Based Authorization"
+      ],
+      "category": "Backend & Software Architecture",
+      "shortDescription": "E-Learning Management System",
+      "problem": "E-learning platforms require strict multi-role workflows (Admin, Teacher, Student), flexible payment gateway integration, and verified review rules tied to actual course enrollment.",
+      "architectureNodes": [
+        "Blade + Vite",
+        "Laravel RBAC",
+        "Strategy Payment",
+        "Repository Layer",
+        "MySQL + Cloudinary"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "Strategy Pattern (Payments)",
+          "reason": "Decouples checkout workflows from Stripe SDK so payment providers can be swapped seamlessly."
+        },
+        {
+          "tech": "Repository Pattern + Eloquent",
+          "reason": "Abstracts complex relational queries across courses, sections, lessons, and enrollments."
+        },
+        {
+          "tech": "Cloudinary CDN",
+          "reason": "Offloads course video and media storage with automated transcoding and fast delivery."
+        },
+        {
+          "tech": "Multi-Role RBAC + PHPUnit",
+          "reason": "Separates Admin vetting, Teacher course builders, and Student learning portals with automated tests."
+        }
+      ],
+      "backendEngineering": [
+        "Implemented 3-tier role authorization for Administrators, Teachers (with approval workflows), and Students.",
+        "Engineered order and payment processing using the Strategy Pattern and Stripe SDK.",
+        "Enforced domain purchase-eligibility rules before allowing course or teacher reviews.",
+        "Integrated Cloudinary for media management and validated core flows with PHPUnit in Docker/Sail."
+      ]
+    },
+    {
+      "id": "medilink-ai",
+      "title": "MediLink AI",
+      "tagline": "Multi-Agent Clinical Triage & Patient Empathy Bridge",
+      "status": "hackathon-mvp",
+      "summary": "Prototype visant à améliorer la communication entre les patients atteints de cancer et les professionnels de santé grâce à l’intelligence artificielle.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "features": [
+        {
+          "name": "Report Agent",
+          "description": "Vise à expliquer les rapports médicaux en langage simple."
+        },
+        {
+          "name": "Empathy Agent",
+          "description": "Vise à accompagner le patient et à repérer les signes de détresse émotionnelle."
+        },
+        {
+          "name": "Communication Agent",
+          "description": "Vise à repérer les alertes cliniques et à notifier l’équipe médicale."
+        }
+      ],
+      "personalContribution": null,
+      "eventId": "youcode-sofrecom-hackathon",
+      "media": {
+        "coverId": "medilink-team",
+        "images": [
+          {
+            "id": "medilink-team",
+            "sourceFile": "imgs/hackathon_yake_team.jpeg",
+            "src": "/photos/hackathon_yake_team.webp",
+            "alt": "The team working together beside the MediLink whiteboard.",
+            "caption": "The team working together beside the MediLink whiteboard.",
+            "locationId": null,
+            "width": 1280,
+            "height": 960
+          }
+        ],
+        "videos": []
+      },
+      "links": {
+        "demo": null,
+        "repository": null,
+        "presentation": null
+      },
+      "slug": "medilink-ai",
+      "name": "MediLink AI",
+      "description": "AI-powered oncology care bridge developed during the YouCode × Sofrecom Hackathon. Coordinates three specialized AI agents (Report Simplification, Emotional Distress Detection, and Clinical Alert Triage) to connect cancer patients with medical teams in real time.",
+      "type": "hackathon",
+      "featured": false,
+      "github": null,
+      "demo": null,
+      "stack": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "Multi-Agent AI",
+        "LLM Prompt Engineering",
+        "REST API"
+      ],
+      "highlights": [
+        "Designed the 3-agent orchestration pipeline (Report Agent, Empathy Agent, Communication Agent).",
+        "Built medical report simplification workflows translating clinical jargon into clear patient guidance.",
+        "Implemented automated distress and symptom detection that escalates priority alerts to doctors.",
+        "Shipped the functional prototype during the YouCode × Sofrecom Hackathon."
+      ],
+      "locationId": null,
+      "architecture": "Multi-agent AI backend coordinating three specialized agents — Report Simplification, Empathy & Distress Detection, and Clinical Alert Escalation — between patients and oncologists.",
+      "role": "AI Systems & Backend Developer (Hackathon)",
+      "metrics": [
+        {
+          "label": "AI Architecture",
+          "value": "3 Specialized Agents"
+        },
+        {
+          "label": "Domain",
+          "value": "Oncology Patient Care"
+        },
+        {
+          "label": "Origin",
+          "value": "Sofrecom Hackathon"
+        },
+        {
+          "label": "Alerting",
+          "value": "Real-Time Clinical Triage"
+        }
+      ],
+      "engineeringConcepts": [
+        "Multi-Agent AI Orchestration",
+        "Medical NLP Simplification",
+        "Sentiment & Distress Detection",
+        "Clinical Alert Escalation",
+        "Rapid Prototyping"
+      ],
+      "category": "AI Agents & Backend",
+      "shortDescription": "AI Clinical Triage & Patient Bridge",
+      "problem": "Cancer patients struggle to understand complex pathology reports at home, while medical teams lack real-time triage alerts when patients experience acute physical or emotional distress.",
+      "architectureNodes": [
+        "Patient Portal",
+        "Report AI Agent",
+        "Empathy AI Agent",
+        "Triage Alert Agent",
+        "Medical Team UI"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "3-Agent Orchestration",
+          "reason": "Separates medical translation, emotional support, and clinical risk scoring into specialized prompts."
+        },
+        {
+          "tech": "Node.js + Express API",
+          "reason": "Low-latency REST orchestration routing patient inputs across the AI agent pipeline."
+        },
+        {
+          "tech": "Real-Time Alert Triage",
+          "reason": "Flags high-risk symptoms immediately and dispatches structured alerts to clinicians."
+        },
+        {
+          "tech": "React Clinical Dashboard",
+          "reason": "Gives medical teams an immediate overview of patient distress signals and simplified summaries."
+        }
+      ],
+      "backendEngineering": [
+        "Designed the 3-agent orchestration pipeline (Report Agent, Empathy Agent, Communication Agent).",
+        "Built medical report simplification workflows translating clinical jargon into clear patient guidance.",
+        "Implemented automated distress and symptom detection that escalates priority alerts to doctors.",
+        "Shipped the functional prototype during the YouCode × Sofrecom Hackathon."
+      ]
+    },
+    {
+      "id": "trackroute",
+      "slug": "trackroute",
+      "name": "TrackRoute",
+      "tagline": "Enterprise Trailer & Fleet Tracking System",
+      "shortDescription": "Trailer & Fleet Tracking System",
+      "category": "Object-Oriented Backend & Fleet Telemetry",
+      "description": "Full-stack trailer and fleet tracking platform engineered with strict Object-Oriented Programming (OOP) principles in TypeScript, Node.js, Express.js, and React. Provides real-time trailer dispatch, route lifecycle tracking, maintenance status monitoring, and RESTful telemetry APIs.",
+      "type": "fullstack",
+      "featured": false,
+      "status": "built",
+      "github": "https://github.com/kardasch404/TrackRoute",
+      "demo": null,
+      "locationId": null,
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      },
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "OOP",
+        "RESTful API"
+      ],
+      "highlights": [
+        "Designed an Object-Oriented domain model in TypeScript encapsulating trailer states, route legs, and driver assignments.",
+        "Built RESTful Express.js APIs for real-time trailer tracking, dispatch scheduling, and fleet availability.",
+        "Developed an interactive React.js operations dashboard for monitoring active routes and cargo status.",
+        "Enforced clean encapsulation, polymorphic domain services, and strict TypeScript compile-time safety."
+      ],
+      "problem": "Logistics operators lose visibility over trailer locations, route checkpoints, and maintenance readiness when relying on fragmented spreadsheets or procedural backend scripts.",
+      "architecture": "Object-Oriented TypeScript backend over Node.js and Express.js exposing strongly-typed RESTful APIs to a real-time React.js fleet dispatch and trailer telemetry dashboard.",
+      "architectureNodes": [
+        "React Fleet UI",
+        "RESTful API",
+        "Express Controllers",
+        "OOP Domain Models",
+        "Telemetry Store"
+      ],
+      "technicalDecisions": [
+        {
+          "tech": "Strict OOP in TypeScript",
+          "reason": "Encapsulates complex trailer state transitions (Idle, In-Transit, Maintenance) and route rules inside rich domain classes."
+        },
+        {
+          "tech": "Node.js + Express RESTful API",
+          "reason": "Clean resource-oriented endpoints for trailers, routes, checkpoints, and dispatch logs."
+        },
+        {
+          "tech": "React.js Operations Dashboard",
+          "reason": "Responsive logistics control panel for real-time fleet filtering and route assignment."
+        }
+      ],
+      "backendEngineering": [
+        "Designed an Object-Oriented domain model in TypeScript encapsulating trailer states, route legs, and driver assignments.",
+        "Built RESTful Express.js APIs for real-time trailer tracking, dispatch scheduling, and fleet availability.",
+        "Developed an interactive React.js operations dashboard for monitoring active routes and cargo status.",
+        "Enforced clean encapsulation, polymorphic domain services, and strict TypeScript compile-time safety."
+      ],
+      "role": "Full-Stack TypeScript & Backend Engineer",
+      "engineeringConcepts": [
+        "Object-Oriented Programming (OOP)",
+        "RESTful API Architecture",
+        "Fleet & Trailer State Machines",
+        "End-to-End TypeScript Safety"
+      ],
+      "metrics": [
+        {
+          "label": "Paradigm",
+          "value": "Strict TypeScript OOP"
+        },
+        {
+          "label": "API Layer",
+          "value": "Express.js RESTful API"
+        },
+        {
+          "label": "Frontend",
+          "value": "React.js Fleet Console"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "alx-cybersecurity",
+      "institution": "ALX Africa / Subverted",
+      "degree": "Software Engineering — Cybersecurity Specialization",
+      "field": "Cybersecurity",
+      "location": "Casablanca Technopark, Morocco (Hybrid)",
+      "startDate": "2026-02",
+      "endDate": null,
+      "current": true,
+      "description": "Hands-on offensive security program: offensive operations, defensive security, and strategic governance.",
+      "locationId": "casablanca",
+      "media": {
+        "coverId": "alx-hub",
+        "images": [
+          {
+            "id": "alx-hub",
+            "sourceFile": "imgs/alxhub.webp",
+            "src": "/photos/alxhub.webp",
+            "alt": "ALX Ventures Hub at Casablanca Technopark.",
+            "caption": "ALX Ventures Hub at Casablanca Technopark, Morocco.",
+            "locationId": "casablanca",
+            "width": 860,
+            "height": 645
+          }
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": "youcode-mern",
+      "institution": "Youcode | UM6P | Simplon",
+      "degree": "MERN Stack Developer Bootcamp",
+      "field": "Full-Stack Software Development",
+      "location": "Youssoufia, Morocco",
+      "startDate": "2024-09",
+      "endDate": "2026-04",
+      "current": false,
+      "description": "Intensive full-stack training: Frontend & Backend development, Responsive Design, Agile (SCRUM/Kanban), Database Design, Project Management.",
+      "locationId": "youssoufia",
+      "media": {
+        "coverId": "youcode-building",
+        "images": [
+          {
+            "id": "youcode-building",
+            "sourceFile": "imgs/youcode.png",
+            "src": "/photos/youcode.webp",
+            "alt": "Exterior of the YouCode building.",
+            "caption": "Exterior of the YouCode building.",
+            "locationId": null,
+            "width": 1600,
+            "height": 1066
+          }
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": "hassan2-mip",
+      "institution": "Université Hassan II — Faculty of Sciences Ben M'sik",
+      "degree": "MIP — Mathematics, Computer Science & Physics",
+      "field": "Mathematics, Informatics, Physics",
+      "location": "Casablanca, Morocco",
+      "startDate": "2021-09",
+      "endDate": "2022-06",
+      "current": false,
+      "description": "S1 & S2 — Algorithms, Mathematics, Physics fundamentals.",
+      "locationId": "casablanca",
+      "media": {
+        "coverId": "faculte-sc-benmsik-view",
+        "images": [
+          {
+            "id": "faculte-sc-benmsik-view",
+            "sourceFile": "imgs/faculte_sc_benmsik.jpg",
+            "src": "/photos/faculte_sc_benmsik.jpg",
+            "caption": "Faculté des Sciences Ben M'sik — Campus Casablanca",
+            "alt": "Faculté des Sciences Ben M'sik campus view",
+            "aspectRatio": "16:9"
+          }
+        ],
+        "videos": []
+      }
+    },
+    {
+      "id": "omar-khayyam-bac",
+      "institution": "Gymnasium Omar Al Khayyam",
+      "degree": "Baccalauréat — Mathematics & Natural Sciences",
+      "field": "Mathematics, Natural Sciences",
+      "location": "Youssoufia, Morocco",
+      "startDate": "2020-09",
+      "endDate": "2021-07",
+      "current": false,
+      "description": "General Baccalauréat with focus on Mathematics and the Natural Sciences stream.",
+      "locationId": "youssoufia",
+      "media": {
+        "coverId": null,
+        "images": [],
+        "videos": []
+      }
+    }
+  ],
+  "map": {
+    "style": "vintage-paper",
+    "visibleLocationIds": [
+      "youssoufia",
+      "casablanca",
+      "germany"
+    ],
+    "filters": [
+      "all",
+      "education",
+      "presentations",
+      "events",
+      "projects",
+      "future-goals"
+    ],
+    "futureGoal": {
+      "destinationId": "germany",
+      "originId": "casablanca",
+      "label": "Deutschland / Future goal",
+      "marker": "hand-drawn-circle",
+      "connection": "red-thread",
+      "visibleWithFilters": [
+        "all",
+        "future-goals"
+      ],
+      "description": "Open to relocating to Germany. A future destination, not a past residence or work location."
+    },
+    "viewport": {
+      "image": "/room/vintage-atlas.webp",
+      "zoom": 4,
+      "startX": 7,
+      "startY": 5,
+      "columns": 3,
+      "rows": 2,
+      "bounds": {
+        "west": -14,
+        "east": 22,
+        "north": 57,
+        "south": 29
+      }
+    },
+    "moroccoLocationIds": [
+      "youssoufia",
+      "casablanca"
+    ],
+    "locationNote": "All presentations took place in Youssoufia, as confirmed by the owner.",
+    "credit": {
+      "label": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    }
+  },
+  "experience": [
+    {
+      "id": "comply-world-engineer",
+      "company": "Comply World",
+      "location": "Casablanca, Morocco",
+      "role": "Backend & Automation Engineer",
+      "type": "full-time",
+      "startDate": "2025-12",
+      "endDate": null,
+      "current": true,
+      "bullets": [
+        "Architected and scaled cloud-native automation infrastructure using Kubernetes, Docker, Kafka, and Redis — supporting full production environments with CI/CD pipelines and zero-downtime deployments.",
+        "Built intelligent anti-bot automation handling high-volume data capture against WAF-protected endpoints (Cloudflare, reCAPTCHA, hCaptcha), achieving near-zero failure rates at scale.",
+        "Designed end-to-end REST APIs with API Key Management and microservices-based data pipeline architecture for real-time processing and downstream analytics."
+      ],
+      "stack": [
+        "Rust",
+        "Go",
+        "Elixir",
+        "Python",
+        "C",
+        "Shell",
+        "Docker",
+        "Kubernetes",
+        "Kafka",
+        "Redis",
+        "MySQL",
+        "Microservices",
+        "Web Scraping"
+      ]
+    },
+    {
+      "id": "comply-world-transition",
+      "company": "Comply World",
+      "location": "Casablanca, Morocco",
+      "role": "Internal Project & Upskilling Phase",
+      "type": "internal",
+      "startDate": "2025-08",
+      "endDate": "2025-11",
+      "current": false,
+      "bullets": [
+        "Internal transition period focused on deep upskilling in Rust, cloud-native tooling, and system architecture between internship and full-time role."
+      ],
+      "stack": []
+    },
+    {
+      "id": "comply-world-intern",
+      "company": "Comply World",
+      "location": "Casablanca, Morocco",
+      "role": "Backend Developer",
+      "type": "internship",
+      "startDate": "2025-05",
+      "endDate": "2025-07",
+      "current": false,
+      "bullets": [
+        "Led a 3-person development team: sprint planning, code reviews, mentoring, and SCRUM/Kanban delivery cycles.",
+        "Engineered 30+ parallel data extraction pipelines using multithreading and multiprocessing, maximizing throughput while defending against bot detection systems.",
+        "Automated end-to-end data workflows — extraction, cleaning, and preparation for network analysis — using Python and Pandas."
+      ],
+      "stack": [
+        "PHP",
+        "Python",
+        "MySQL",
+        "BeautifulSoup",
+        "Selenium",
+        "Cloudscraper",
+        "Pandas",
+        "Web Scraping"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "kcne",
+      "name": "Kubernetes & Cloud Native Essentials (KCNE)",
+      "issuer": "Linux Foundation / Credly",
+      "year": 2026,
+      "date": "2026",
+      "credentialUrl": null,
+      "description": "Container orchestration, K8s architecture, cloud-native deployment strategies.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "DevOps"
+      ]
+    },
+    {
+      "id": "sql-great-learning",
+      "name": "SQL Certificate",
+      "issuer": "Great Learning Academy",
+      "year": 2025,
+      "date": "2025",
+      "credentialUrl": null,
+      "description": "Structured Query Language — querying, joins, optimization.",
+      "tags": [
+        "SQL",
+        "Databases"
+      ]
+    },
+    {
+      "id": "goethe-c1",
+      "name": "Goethe-Zertifikat C1 — German Language (in progress)",
+      "issuer": "Goethe-Institut Casablanca",
+      "year": 2026,
+      "date": "2026-06",
+      "credentialUrl": null,
+      "inProgress": true,
+      "description": "C1-level German language certification. Exam scheduled June 30, 2026.",
+      "tags": [
+        "German",
+        "Languages"
+      ]
+    },
+    {
+      "id": "first-aid",
+      "name": "First Aid & CPR (HLW)",
+      "issuer": "Moroccan Red Crescent",
+      "year": 2023,
+      "date": "2023",
+      "credentialUrl": null,
+      "description": "First aid and cardiopulmonary resuscitation training.",
+      "tags": [
+        "First Aid"
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "id": "languages",
+        "label": "Languages",
+        "icon": "code",
+        "items": [
+          {
+            "name": "Rust",
+            "level": "advanced"
+          },
+          {
+            "name": "Python",
+            "level": "advanced"
+          },
+          {
+            "name": "Go",
+            "level": "advanced"
+          },
+          {
+            "name": "Elixir",
+            "level": "intermediate"
+          },
+          {
+            "name": "TypeScript",
+            "level": "advanced"
+          },
+          {
+            "name": "JavaScript",
+            "level": "advanced"
+          },
+          {
+            "name": "PHP",
+            "level": "intermediate"
+          },
+          {
+            "name": "C",
+            "level": "intermediate"
+          },
+          {
+            "name": "Shell",
+            "level": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": "backend",
+        "label": "Backend & APIs",
+        "icon": "server",
+        "items": [
+          {
+            "name": "Node.js",
+            "level": "advanced"
+          },
+          {
+            "name": "NestJS",
+            "level": "advanced"
+          },
+          {
+            "name": "Express.js",
+            "level": "advanced"
+          },
+          {
+            "name": "Laravel",
+            "level": "intermediate"
+          },
+          {
+            "name": "RESTful API",
+            "level": "advanced"
+          },
+          {
+            "name": "GraphQL",
+            "level": "intermediate"
+          },
+          {
+            "name": "ORM",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "id": "frontend",
+        "label": "Frontend",
+        "icon": "layout",
+        "items": [
+          {
+            "name": "React",
+            "level": "advanced"
+          },
+          {
+            "name": "Next.js",
+            "level": "advanced"
+          },
+          {
+            "name": "Vue.js",
+            "level": "intermediate"
+          },
+          {
+            "name": "Redux",
+            "level": "advanced"
+          },
+          {
+            "name": "Tailwind CSS",
+            "level": "advanced"
+          },
+          {
+            "name": "HTML5",
+            "level": "advanced"
+          },
+          {
+            "name": "CSS3",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "id": "databases",
+        "label": "Databases",
+        "icon": "database",
+        "items": [
+          {
+            "name": "MySQL",
+            "level": "advanced"
+          },
+          {
+            "name": "PostgreSQL",
+            "level": "advanced"
+          },
+          {
+            "name": "MongoDB",
+            "level": "advanced"
+          },
+          {
+            "name": "Redis",
+            "level": "advanced"
+          },
+          {
+            "name": "Elasticsearch",
+            "level": "intermediate"
+          },
+          {
+            "name": "Prisma",
+            "level": "intermediate"
+          },
+          {
+            "name": "Mongoose",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "id": "cloud-devops",
+        "label": "Cloud & DevOps",
+        "icon": "cloud",
+        "items": [
+          {
+            "name": "Docker",
+            "level": "advanced"
+          },
+          {
+            "name": "Kubernetes",
+            "level": "advanced"
+          },
+          {
+            "name": "AWS",
+            "level": "intermediate"
+          },
+          {
+            "name": "Terraform",
+            "level": "intermediate"
+          },
+          {
+            "name": "Jenkins CI/CD",
+            "level": "intermediate"
+          },
+          {
+            "name": "Git",
+            "level": "advanced"
+          },
+          {
+            "name": "Linux",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "id": "messaging",
+        "label": "Messaging & Queues",
+        "icon": "messages",
+        "items": [
+          {
+            "name": "Apache Kafka",
+            "level": "advanced"
+          },
+          {
+            "name": "BullMQ",
+            "level": "intermediate"
+          },
+          {
+            "name": "WebSockets",
+            "level": "advanced"
+          },
+          {
+            "name": "Socket.io",
+            "level": "intermediate"
+          },
+          {
+            "name": "Zookeeper",
+            "level": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "label": "Security & Auth",
+        "icon": "shield",
+        "items": [
+          {
+            "name": "JWT",
+            "level": "advanced"
+          },
+          {
+            "name": "OAuth2",
+            "level": "intermediate"
+          },
+          {
+            "name": "RBAC",
+            "level": "advanced"
+          },
+          {
+            "name": "bcrypt",
+            "level": "advanced"
+          },
+          {
+            "name": "Cybersecurity Fundamentals",
+            "level": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": "automation",
+        "label": "Automation & Scraping",
+        "icon": "robot",
+        "items": [
+          {
+            "name": "Selenium",
+            "level": "advanced"
+          },
+          {
+            "name": "Playwright",
+            "level": "advanced"
+          },
+          {
+            "name": "BeautifulSoup",
+            "level": "advanced"
+          },
+          {
+            "name": "Cloudscraper",
+            "level": "advanced"
+          },
+          {
+            "name": "Multiprocessing",
+            "level": "advanced"
+          },
+          {
+            "name": "WAF bypass",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "id": "microservices",
+        "label": "Microservices",
+        "icon": "components",
+        "items": [
+          {
+            "name": "Microservices Architecture",
+            "level": "advanced"
+          },
+          {
+            "name": "API Key Management",
+            "level": "advanced"
+          },
+          {
+            "name": "SOLID Principles",
+            "level": "advanced"
+          },
+          {
+            "name": "Service Patterns",
+            "level": "intermediate"
+          },
+          {
+            "name": "NX Monorepo",
+            "level": "intermediate"
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "label": "Tools & Other",
+        "icon": "tool",
+        "items": [
+          {
+            "name": "Figma",
+            "level": "intermediate"
+          },
+          {
+            "name": "Postman",
+            "level": "advanced"
+          },
+          {
+            "name": "Swagger",
+            "level": "intermediate"
+          },
+          {
+            "name": "Prometheus",
+            "level": "beginner"
+          },
+          {
+            "name": "Jira",
+            "level": "intermediate"
+          },
+          {
+            "name": "SCRUM",
+            "level": "advanced"
+          },
+          {
+            "name": "Kanban",
+            "level": "advanced"
+          }
+        ]
+      }
+    ]
+  },
+  "mediaLibrary": [
+    {
+      "id": "rtl-session",
+      "sourceFile": "imgs/Zakaria_RTL_pre.jpeg",
+      "src": "/photos/Zakaria_RTL_pre.webp",
+      "alt": "Presentation on why automated tests matter.",
+      "caption": "Presentation on why automated tests matter.",
+      "locationId": "youssoufia",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "id": "rtl-detail",
+      "sourceFile": "imgs/Zakaria_RTL_pre_1.jpeg",
+      "src": "/photos/Zakaria_RTL_pre_1.webp",
+      "alt": "A closer view of the automated testing presentation.",
+      "caption": "A closer view of the automated testing presentation.",
+      "locationId": "youssoufia",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "id": "api-live",
+      "sourceFile": "imgs/live_coding_APIs_postamn.jpeg",
+      "src": "/photos/live_coding_APIs_postamn.webp",
+      "alt": "Live API demonstration using Postman.",
+      "caption": "Live API demonstration using Postman.",
+      "locationId": "youssoufia",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": "medilink-team",
+      "sourceFile": "imgs/hackathon_yake_team.jpeg",
+      "src": "/photos/hackathon_yake_team.webp",
+      "alt": "The team working together beside the MediLink whiteboard.",
+      "caption": "The team working together beside the MediLink whiteboard.",
+      "locationId": null,
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": "coding-session",
+      "sourceFile": "imgs/zakaria_hackmann.jpeg",
+      "src": "/photos/zakaria_hackmann.webp",
+      "alt": "A collaborative coding session.",
+      "caption": "A collaborative coding session.",
+      "locationId": null,
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": "scraping-whiteboard",
+      "sourceFile": "imgs/zakaria_explain_palywtiete_selenuim.jpeg",
+      "src": "/photos/zakaria_explain_palywtiete_selenuim.webp",
+      "alt": "Whiteboard explanation of Playwright, Selenium and scraping architecture.",
+      "caption": "Whiteboard explanation of Playwright, Selenium and scraping architecture.",
+      "locationId": "youssoufia",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": "development-whiteboard",
+      "sourceFile": "imgs/zakaria_explain_dev.jpeg",
+      "src": "/photos/zakaria_explain_dev.webp",
+      "alt": "Development architecture explained on a whiteboard.",
+      "caption": "Development architecture explained on a whiteboard.",
+      "locationId": "youssoufia",
+      "width": 521,
+      "height": 1156
+    },
+    {
+      "id": "conception-whiteboard",
+      "sourceFile": "imgs/zakaria_explain_conception.jpeg",
+      "src": "/photos/zakaria_explain_conception.webp",
+      "alt": "Collaborative data modelling and application design.",
+      "caption": "Collaborative data modelling and application design.",
+      "locationId": "youssoufia",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "id": "devops-diagram",
+      "sourceFile": "imgs/devops_jenkiss_explain.jpeg",
+      "src": "/photos/devops_jenkiss_explain.webp",
+      "alt": "Presentation diagram connecting Docker, Kubernetes and Jenkins.",
+      "caption": "Presentation diagram connecting Docker, Kubernetes and Jenkins.",
+      "locationId": "youssoufia",
+      "width": 521,
+      "height": 1156
+    },
+    {
+      "id": "youcode-building",
+      "sourceFile": "imgs/youcode.png",
+      "src": "/photos/youcode.webp",
+      "alt": "Exterior of the YouCode building.",
+      "caption": "Exterior of the YouCode building.",
+      "locationId": null,
+      "width": 1600,
+      "height": 1066
+    }
+  ],
+  "board": {
+    "width": 15.4,
+    "height": 9.2,
+    "centerY": 6.3,
+    "photos": [
+      {
+        "id": "rtl-session",
+        "x": -6,
+        "y": 9.65,
+        "width": 2.2,
+        "angle": -0.045
+      },
+      {
+        "id": "rtl-detail",
+        "x": -3.55,
+        "y": 9.7,
+        "width": 2.15,
+        "angle": 0.04
+      },
+      {
+        "id": "api-live",
+        "x": 3.5,
+        "y": 9.7,
+        "width": 2.15,
+        "angle": -0.04
+      },
+      {
+        "id": "medilink-team",
+        "x": 6,
+        "y": 9.55,
+        "width": 2.2,
+        "angle": 0.05
+      },
+      {
+        "id": "coding-session",
+        "x": -6,
+        "y": 7,
+        "width": 2.2,
+        "angle": 0.035
+      },
+      {
+        "id": "scraping-whiteboard",
+        "x": 6,
+        "y": 7,
+        "width": 2.2,
+        "angle": -0.04
+      },
+      {
+        "id": "development-whiteboard",
+        "x": 2.95,
+        "y": 6.65,
+        "width": 1.05,
+        "angle": -0.035
+      },
+      {
+        "id": "conception-whiteboard",
+        "x": -6,
+        "y": 4.6,
+        "width": 2.2,
+        "angle": -0.05
+      },
+      {
+        "id": "devops-diagram",
+        "x": 4.15,
+        "y": 6.65,
+        "width": 1.05,
+        "angle": 0.04
+      },
+      {
+        "id": "youcode-building",
+        "x": 6,
+        "y": 4.6,
+        "width": 2.2,
+        "angle": 0.045
+      }
+    ]
+  }
+}

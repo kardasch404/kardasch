@@ -1,0 +1,157 @@
+/* === 3D DETECTIVE ROOM — SCENE === */
+
+.room-scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #080604;
+  color: #e8dfc8;
+  font-family: 'Courier Prime', 'Courier New', monospace;
+}
+
+/* Room environment */
+.room-env {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.room-ceiling {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 8%;
+  background: linear-gradient(180deg, #050302 0%, #0d0a06 100%);
+}
+
+.room-wall {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 35%;
+  background: radial-gradient(ellipse at 55% 60%, #1a1208 0%, #0d0a05 60%, #080604 100%);
+}
+
+.room-wall-left {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  width: 4%;
+  background: linear-gradient(90deg, #050302, transparent);
+}
+
+.room-wall-right {
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 4%;
+  background: linear-gradient(-90deg, #050302, transparent);
+}
+
+/* Lamp light cone overlay */
+.lamp-glow {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 45% 55% at 65% 42%, rgba(255,200,100,0.07) 0%, transparent 100%),
+    radial-gradient(ellipse 30% 40% at 68% 75%, rgba(255,180,80,0.05) 0%, transparent 100%);
+  transition: opacity 0.8s ease;
+}
+
+.lamp-glow.off { opacity: 0; }
+
+/* Vignette */
+.room-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 51;
+  pointer-events: none;
+  background: radial-gradient(ellipse 70% 65% at 50% 45%, transparent 40%, rgba(5,3,2,0.7) 100%);
+}
+
+/* === BOARD FRAME === */
+.board-frame {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  right: 6%;
+  bottom: 38%;
+  z-index: 10;
+  border: 8px solid #2a1a0e;
+  border-radius: 2px;
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.7),
+    inset 0 0 30px rgba(0,0,0,0.3),
+    0 0 0 2px #1a1008;
+  background: #3a2a18;
+}
+
+.board-frame::before {
+  content: '';
+  position: absolute;
+  inset: -12px;
+  border: 4px solid #1a1008;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.board-label {
+  position: absolute;
+  top: -28px;
+  left: 16px;
+  font-family: 'Special Elite', serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: #9b7d5a;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+/* === BOARD VIEWPORT (pannable/zoomable) === */
+.board-viewport {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.board-viewport.is-grabbing { cursor: grabbing; }
+
+.board-world {
+  position: absolute;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.board-cork {
+  position: absolute;
+  inset: 0;
+  background-color: #a07850;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,0,0,0.06) 3px, rgba(0,0,0,0.06) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.04) 3px, rgba(0,0,0,0.04) 4px),
+    repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(0,0,0,0.03) 8px, rgba(0,0,0,0.03) 9px);
+}
+
+/* === RED STRINGS === */
+.board-strings {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* === BOARD ITEMS (shared) === */
+.board-item {
+  position: absolute;
+  cursor: grab;
+  filter: drop-shadow(3px 5px 8px rgba(0,0,0,0.45));
+  transition: filter 0.2s ease, z-index 0s;
+  z-index: 3;
+}
+
+.board-item:hover {
+  filter: drop-shadow(5px 8px 16px rgba(0,0,0,0.65));
+  z-index: 40;
+}

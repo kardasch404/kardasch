@@ -4,11 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  devIndicators: {
-    buildActivity: false,
-    buildActivityPosition: 'bottom-right',
-  },
+  devIndicators: false,
   reactStrictMode: false,
+  experimental: { cpus: 2 },
 }
 
 module.exports = nextConfig

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "stealth-scraping-cicd-workshop",
+    "slug": "stealth-scraping-cicd-youcode-2026",
+    "type": "workshop",
+    "status": "published",
+    "featured": true,
+    "title": "Stealth Web Scraping & Cloud-Native CI/CD Pipelines",
+    "subtitle": "From WAF bypass to Kubernetes-grade deployment — bridging data extraction and scalable infrastructure",
+    "date": "2026-05",
+    "dateFormatted": "May 2026",
+    "venue": {
+      "name": "YouCode (Simplon / UM6P)",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "full": "YouCode (Simplon/UM6P), Casablanca — Morocco"
+    },
+    "attendees": 40,
+    "duration": "Full day intensive",
+    "language": "French / Arabic",
+    "role": "Facilitator",
+    "photos": [
+      {
+        "id": "ws-001",
+        "url": "/images/talks/scraping-cicd/whiteboard-architecture.jpg",
+        "alt": "Whiteboard architecture session — scraping pipeline design",
+        "caption": "Live architecture session — mapping the full scraping-to-deployment pipeline",
+        "type": "session"
+      },
+      {
+        "id": "ws-002",
+        "url": "/images/talks/scraping-cicd/attendees.jpg",
+        "alt": "Workshop attendees following the live demo",
+        "caption": "~40 attendees during the Playwright vs Selenium live benchmark",
+        "type": "audience"
+      },
+      {
+        "id": "ws-003",
+        "url": "/images/talks/scraping-cicd/kubernetes-diagram.jpg",
+        "alt": "Kubernetes cluster diagram drawn live on whiteboard",
+        "caption": "K8s high-availability cluster — drawn live during the containerization module",
+        "type": "whiteboard"
+      },
+      {
+        "id": "ws-004",
+        "url": "/images/talks/scraping-cicd/jenkins-pipeline.jpg",
+        "alt": "Jenkins CI/CD pipeline live configuration",
+        "caption": "Live Jenkins pipeline — GitHub → SonarQube → Docker Hub → K8s",
+        "type": "screen"
+      }
+    ],
+    "coverPhoto": "/images/talks/scraping-cicd/whiteboard-architecture.jpg",
+    "agenda": [
+      {
+        "order": 1,
+        "title": "Advanced Stealth Web Scraping",
+        "description": "Modern automation tools benchmark — Playwright vs Puppeteer vs Selenium. WAF penetration algorithms, Cloudflare bypass, CAPTCHA handling, Cloudscraper, and proxy infrastructure management."
+      },
+      {
+        "order": 2,
+        "title": "Continuous Integration & Deployment (CI/CD)",
+        "description": "Orchestrating automated pipelines with Jenkins. Full flow: GitHub version control → static code analysis → quality gates with SonarQube."
+      },
+      {
+        "order": 3,
+        "title": "Containerization & Orchestration",
+        "description": "Packaging Django applications with Docker, pushing to Docker Hub, deploying into highly available Kubernetes clusters."
+      },
+      {
+        "order": 4,
+        "title": "Infrastructure as Code & Operations",
+        "description": "Dynamic infrastructure provisioning with Terraform. Real-time pipeline status alerts integrated directly into Slack."
+      }
+    ],
+    "description": "Facilitated an intensive technical workshop diving into the architectures of advanced web scraping and robust DevOps pipelines. The workshop focused on practical, high-scale system implementations — helping participants understand both how to navigate complex web security measures stealthily, and how to architect the microservices needed to deploy and scale these systems reliably.",
+    "stack": ["Playwright", "Puppeteer", "Selenium", "Cloudscraper", "Jenkins", "SonarQube", "Docker", "Kubernetes", "Terraform", "Slack API", "Django", "GitHub"],
+    "tags": ["WebScraping", "DevOps", "Kubernetes", "Jenkins", "Playwright", "CloudComputing", "SoftwareArchitecture"],
+    "links": {
+      "slides": null,
+      "repo": null,
+      "recording": null,
+      "event": null
+    }
+  },
+
+  {
+    "id": "medilink-hackathon-youcode-sofrecom",
+    "slug": "medilink-youcode-sofrecom-hackathon",
+    "type": "hackathon",
+    "status": "published",
+    "featured": true,
+    "title": "MediLink AI — YouCode × Sofrecom Hackathon",
+    "subtitle": "3 intelligent agents (Report, Empathy, Communication) to bridge cancer patients and medical teams",
+    "date": "2024-11-07",
+    "dateFormatted": "November 7, 2024",
+    "venue": {
+      "name": "YouCode | UM6P",
+      "city": "Youssoufia",
+      "country": "Morocco",
+      "full": "YouCode | UM6P, Youssoufia — Morocco"
+    },
+    "attendees": null,
+    "duration": "Hackathon",
+    "language": "French",
+    "role": "Builder",
+    "photos": [
+      {
+        "id": "ml-001",
+        "url": "/images/talks/medilink/team-presentation.jpg",
+        "alt": "Team presenting MediLink to the jury",
+        "caption": "Presenting MediLink AI to the Sofrecom jury panel",
+        "type": "presentation"
+      },
+      {
+        "id": "ml-002",
+        "url": "/images/talks/medilink/architecture-diagram.jpg",
+        "alt": "MediLink AI 3-agent architecture diagram",
+        "caption": "The 3-agent architecture — Report, Empathy, Communication agents",
+        "type": "whiteboard"
+      },
+      {
+        "id": "ml-003",
+        "url": "/images/talks/medilink/demo-screen.jpg",
+        "alt": "Live demo of MediLink AI interface",
+        "caption": "Live demo — Empathy Agent interacting with a simulated patient scenario",
+        "type": "screen"
+      }
+    ],
+    "coverPhoto": "/images/talks/medilink/team-presentation.jpg",
+    "agenda": [
+      {
+        "order": 1,
+        "title": "Report Agent",
+        "description": "Automated medical report analysis and summarization — extracting key clinical insights for medical teams."
+      },
+      {
+        "order": 2,
+        "title": "Empathy Agent",
+        "description": "Patient-facing emotional support and communication — designed to reduce anxiety and improve patient experience."
+      },
+      {
+        "order": 3,
+        "title": "Communication Agent",
+        "description": "Streamlined doctor-patient interaction workflow — bridging the information gap between medical teams and patients."
+      }
+    ],
+    "description": "Built MediLink AI during the YouCode × Sofrecom Hackathon — an innovative solution to bridge cancer patients and medical teams through 3 specialized AI agents. MediLink aimed to transform healthcare communication, making it more accessible and human-centered through the power of AI.",
+    "stack": ["AWS", "Cloud Computing", "AI Agents", "Python"],
+    "tags": ["AWS", "CloudComputing", "SoftwareEngineering", "AI", "Healthcare", "Hackathon"],
+    "links": {
+      "slides": null,
+      "repo": null,
+      "recording": null,
+      "event": "https://drissnafii.me/talks/medilink-youcode-sofrecom-hackathon"
+    }
+  },
+
+  {
+    "id": "react-testing-jest-rtl",
+    "slug": "react-testing-jest-rtl",
+    "type": "live-coding",
+    "status": "published",
+    "featured": false,
+    "title": "Tester les Composants React avec Jest et React Testing Library",
+    "subtitle": "De l'introduction à RTL jusqu'aux tests async, API et best practices — session live coding complète",
+    "date": null,
+    "dateFormatted": null,
+    "venue": null,
+    "attendees": null,
+    "duration": null,
+    "language": "French",
+    "role": "Presenter",
+    "photos": [
+      {
+        "id": "rtl-001",
+        "url": "/images/talks/react-testing/live-session.jpg",
+        "alt": "Live coding session — writing first RTL tests",
+        "caption": "Live session — writing the first component tests with RTL",
+        "type": "screen"
+      }
+    ],
+    "coverPhoto": "/images/talks/react-testing/live-session.jpg",
+    "agenda": [
+      { "order": 1,  "title": "Introduction à RTL et Jest",                             "description": "Présentation des outils, philosophie du testing et différences avec Enzyme." },
+      { "order": 2,  "title": "Pourquoi écrire des tests ?",                             "description": "ROI du testing, dette technique, confiance au déploiement." },
+      { "order": 3,  "title": "Installation et configuration",                           "description": "Setup Jest + RTL dans un projet React / Next.js from scratch." },
+      { "order": 4,  "title": "Écrire les premiers tests",                               "description": "render(), screen, queries getBy / findBy / queryBy — les bases solides." },
+      { "order": 5,  "title": "Tester les interactions utilisateur",                     "description": "userEvent, fireEvent, simulate clicks, inputs, form submission." },
+      { "order": 6,  "title": "Tester les composants avec state et context",            "description": "Context providers, Redux store dans les tests, isolation correcte." },
+      { "order": 7,  "title": "Tests async / API / routes",                              "description": "MSW (Mock Service Worker), waitFor, async queries, Next.js router mock." },
+      { "order": 8,  "title": "Best Practices RTL",                                     "description": "Accessibility queries, éviter les anti-patterns, coverage sans obsession." },
+      { "order": 9,  "title": "Extensions VS Code",                                     "description": "Jest Runner, Coverage Gutters, Vitest UI — workflow optimal." },
+      { "order": 10, "title": "Conclusion",                                             "description": "Recap, resources, Q&A live." }
+    ],
+    "description": "Session de live coding complète dédiée au testing de composants React avec Jest et React Testing Library. De la configuration initiale jusqu'aux tests avancés (async, API, context, Redux), avec les best practices et un workflow VS Code optimisé.",
+    "stack": ["React", "Jest", "React Testing Library", "MSW", "TypeScript", "Next.js", "Redux"],
+    "tags": ["React", "Testing", "Jest", "RTL", "LiveCoding", "Frontend", "BestPractices"],
+    "links": {
+      "slides": null,
+      "repo": null,
+      "recording": null,
+      "event": null
+    }
+  },
+
+  {
+    "id": "rest-api-graphql",
+    "slug": "rest-api-graphql",
+    "type": "presentation",
+    "status": "published",
+    "featured": false,
+    "title": "REST API && GraphQL",
+    "subtitle": "Introduction, comparaison approfondie et mise en pratique — choisir la bonne architecture API",
+    "date": null,
+    "dateFormatted": null,
+    "venue": null,
+    "attendees": null,
+    "duration": null,
+    "language": "French",
+    "role": "Presenter",
+    "photos": [
+      {
+        "id": "api-001",
+        "url": "/images/talks/rest-graphql/slides-cover.jpg",
+        "alt": "REST API vs GraphQL presentation slides",
+        "caption": "Opening slide — REST API && GraphQL architecture comparison",
+        "type": "slides"
+      },
+      {
+        "id": "api-002",
+        "url": "/images/talks/rest-graphql/comparison-diagram.jpg",
+        "alt": "REST vs GraphQL comparison diagram",
+        "caption": "Side-by-side comparison — request model, schema, performance tradeoffs",
+        "type": "whiteboard"
+      }
+    ],
+    "coverPhoto": "/images/talks/rest-graphql/slides-cover.jpg",
+    "agenda": [
+      { "order": 1, "title": "Introduction aux API",           "description": "Qu'est-ce qu'une API, protocoles, HTTP, JSON — les fondamentaux." },
+      { "order": 2, "title": "REST API",                       "description": "Principes REST, endpoints, verbes HTTP, status codes, versioning, HATEOAS." },
+      { "order": 3, "title": "GraphQL",                        "description": "Schema, queries, mutations, subscriptions, resolvers, fragments." },
+      { "order": 4, "title": "Mise en Pratique",               "description": "Implémentation live — même feature en REST puis en GraphQL, comparaison du code." },
+      { "order": 5, "title": "Comparaison REST vs GraphQL",    "description": "Over-fetching, under-fetching, N+1 problem, caching, complexity, use cases réels." },
+      { "order": 6, "title": "Conclusion",                     "description": "Quand choisir REST, quand choisir GraphQL, ressources, Q&A." }
+    ],
+    "description": "Présentation approfondie couvrant les deux grandes architectures API modernes — REST et GraphQL. De l'introduction aux fondamentaux jusqu'à la mise en pratique live et la comparaison critique des deux approches pour guider le choix architectural.",
+    "stack": ["REST API", "GraphQL", "Node.js", "Express.js", "Apollo Server", "Postman"],
+    "tags": ["REST", "GraphQL", "API", "Backend", "Architecture", "Presentation"],
+    "links": {
+      "slides": null,
+      "repo": null,
+      "recording": null,
+      "event": null
+    }
+  }
+]
