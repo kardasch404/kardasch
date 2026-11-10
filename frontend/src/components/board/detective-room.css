@@ -3574,6 +3574,25 @@
   background: #8b1a1a;
 }
 
+.cv-scaler-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 0 0 40px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cv-scaler-inner {
+  transform-origin: top center;
+  transition: transform 0.15s ease-out;
+  display: flex;
+  justify-content: center;
+  width: 210mm;
+}
+
 .cv-a4-page {
   --accent: #1a3a6b;
   --accent2: #8b1a1a;
@@ -3585,8 +3604,10 @@
   --bg: #ffffff;
   --tag-bg: #f3f4f6;
   width: 210mm;
-  max-width: 100%;
+  min-width: 210mm;
+  max-width: 210mm;
   min-height: 297mm;
+  box-sizing: border-box;
   margin: 0 auto;
   background: var(--bg);
   color: var(--ink);

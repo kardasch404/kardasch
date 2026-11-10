@@ -74,7 +74,26 @@ export default function CvLebenslauf({
   const cv = translations[locale].cv;
   const ui = translations[locale].ui;
   const pageRef = useRef<HTMLDivElement | null>(null);
+  const [scale, setScale] = useState(1);
   const [pdfStatus, setPdfStatus] = useState<'idle' | 'generating' | 'done'>('idle');
+
+  useEffect(() => {
+    // Dynamic responsive scale calculation for phone, tablet, and laptop
+    const updateScale = () => {
+      const A4_WIDTH_PX = 794; // 210mm in pixels at 96 DPI
+      const availableW = window.innerWidth - 32;
+      if (availableW < A4_WIDTH_PX) {
+        const nextScale = Math.min(1, Math.max(0.32, availableW / A4_WIDTH_PX));
+        setScale(nextScale);
+      } else {
+        setScale(1);
+      }
+    };
+
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, []);
 
   useEffect(() => {
     // Preload html2canvas & jsPDF just like cv.html so download is instant
@@ -109,19 +128,37 @@ export default function CvLebenslauf({
         throw new Error('PDF libraries unavailable');
       }
 
+      // Always capture at true unscaled A4 dimensions (794px width)
+      // regardless of whether user is on phone, tablet or desktop
       const canvas = await window.html2canvas(pageElement, {
-        scale: 3,
+        scale: 2.5,
         useCORS: true,
         allowTaint: true,
         logging: false,
         backgroundColor: '#ffffff',
-        windowWidth: pageElement.scrollWidth,
-        windowHeight: pageElement.scrollHeight,
+        width: 794,
+        windowWidth: 1200,
+        onclone: (clonedDoc: Document) => {
+          const scaler = clonedDoc.querySelector('.cv-scaler-inner') as HTMLElement | null;
+          if (scaler) {
+            scaler.style.transform = 'none';
+          }
+          const page = clonedDoc.querySelector('.cv-a4-page') as HTMLElement | null;
+          if (page) {
+            page.style.width = '794px';
+            page.style.minWidth = '794px';
+            page.style.maxWidth = '794px';
+            page.style.minHeight = '1123px';
+            page.style.transform = 'none';
+            page.style.margin = '0 auto';
+            page.style.boxShadow = 'none';
+          }
+        },
         imageTimeout: 0,
         removeContainer: true,
       });
 
-      const imgData = canvas.toDataURL('image/jpeg', 1.0);
+      const imgData = canvas.toDataURL('image/jpeg', 0.98);
       const { jsPDF } = window.jspdf;
       const pdf = new jsPDF({
         orientation: 'portrait',
@@ -131,20 +168,29 @@ export default function CvLebenslauf({
       });
 
       const pdfWidth = 210;
-      const pdfHeight = 297;
-      pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight, '', 'FAST');
+      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+      // Preserve exact aspect ratio without squashing
+      pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, Math.min(pdfHeight, 297), '', 'FAST');
 
-      // Map all clickable links onto the A4 PDF page (1:1 with cv.html)
-      const pageRect = pageElement.getBoundingClientRect();
-      const scaleX = pdfWidth / pageElement.offsetWidth;
-      const scaleY = pdfHeight / pageElement.offsetHeight;
+      // Map clickable links with true unscaled coordinates relative to pageElement
+      const baseW = pageElement.offsetWidth || 794;
+      const baseH = pageElement.offsetHeight || 1123;
+      const scaleX = pdfWidth / baseW;
+      const scaleY = Math.min(pdfHeight, 297) / baseH;
       const allLinks = pageElement.querySelectorAll<HTMLAnchorElement>('a[href]');
       allLinks.forEach((link) => {
-        const rect = link.getBoundingClientRect();
-        const x = (rect.left - pageRect.left) * scaleX;
-        const y = (rect.top - pageRect.top) * scaleY;
-        const width = rect.width * scaleX;
-        const height = rect.height * scaleY;
+        let cur: HTMLElement | null = link;
+        let top = 0;
+        let left = 0;
+        while (cur && cur !== pageElement) {
+          top += cur.offsetTop;
+          left += cur.offsetLeft;
+          cur = cur.offsetParent as HTMLElement | null;
+        }
+        const x = left * scaleX;
+        const y = top * scaleY;
+        const width = link.offsetWidth * scaleX;
+        const height = link.offsetHeight * scaleY;
         if (link.href) {
           pdf.link(x, y, width, height, { url: link.href });
         }
@@ -203,7 +249,19 @@ export default function CvLebenslauf({
         </div>
       </div>
 
-      <div ref={pageRef} className="cv-a4-page">
+      <div
+        className="cv-scaler-wrapper"
+        style={{
+          minHeight: scale < 1 ? `${Math.ceil(1123 * scale) + 40}px` : undefined,
+        }}
+      >
+        <div
+          className="cv-scaler-inner"
+          style={{
+            transform: scale < 1 ? `scale(${scale})` : undefined,
+          }}
+        >
+          <div ref={pageRef} className="cv-a4-page">
         {/* HEADER */}
         <div className="cv-header">
           <div className="cv-header-left">
@@ -360,5 +418,7 @@ export default function CvLebenslauf({
         </p>
       </div>
     </div>
+  </div>
+</div>
   );
 }
